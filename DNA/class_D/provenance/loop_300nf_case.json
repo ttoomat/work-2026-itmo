@@ -1,0 +1,6 @@
+{
+  "cap_nf": 300,
+  "ramp_pp_V": 0.207801829357253,
+  "delay_ns_assumed": 25,
+  "scope": "Vendor OPA859 with averaged PWM/driver and nominal passive load. Loop return ratio -V(out)/V(sense). Reference and feedforward AC-grounded. Idle bias only, no switching harmonics/subharmonics, no dead-time distortion, no input-path transfer or startup test. Does not prove stability at other duties or with digital PWM."
+}

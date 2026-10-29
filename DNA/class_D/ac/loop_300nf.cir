@@ -1,0 +1,49 @@
+* Averaged return ratio at idle COM=11.3V. NOT switching stability proof.
+* Only U1 is a vendor macro. PWM/driver averaged; assumed25ns delay.
+.include "../models/compatible/OPA859.lib"
+.param KMOD=288.736630402 TD=25n CHEAD=300n
+Vlogic logic 0 5
+Vmid mid 0 1.65
+Vnorm rnorm 0 0.720079386669
+Vpd pd 0 5
+Rplus rnorm plus 249
+Rbias mid plus 2.94k
+Cref_filter plus mid 1.6n
+Xerror plus minus logic 0 error pd OA859_OPA859
+Rfb error minus 2.94k
+* Voltage injection: sense is feedback-side, out is plant-side.
+Vprobe sense out DC 0 AC 1
+RmeasureA sense minus 15k
+RmeasureB sense minus 15k
+RgainA minus gainmid 255
+RgainB gainmid 0 2.55
+Rlead error lead 2.94k
+Clead error lead 124.7p
+Rleadr lead mid 215
+Ccmp lead mid 2p
+Rmixlead lead mix 13.3k
+Rmixref rnorm mix 100k
+Rmixhi logic mix 158k
+Rmixlo mix 0 113k
+* Natural PWM gain: 60V divided by measured carrier peak-to-peak.
+* Nominal centred triangle is MID. No limiter: small-signal model only.
+Bcommand command 0 V=30+KMOD*V(mix,mid)
+* First-order all-pass Pade delay: (1-s*TD/2)/(1+s*TD/2).
+Rdelay command state 1k
+Cdelay state 0 {TD/2000}
+Baverage sw 0 V=2*V(state)-V(command)
+Lfilter sw lout 500n
+Rcoil lout shunt 0.0165
+Rshunt shunt damp 0.001
+RdampA damp out 0.22
+RdampB damp out 0.22
+Cfixed out 0 468n
+Rcable out cable 0.22
+Lcable cable head 10n
+Cload head 0 {CHEAD}
+Rleak head 0 10Meg
+.options numdgt=7 plotwinsize=0
+.save V(sense) V(out) V(head) V(error) V(mix)
+.op
+.ac dec 120 1k 3Meg
+.end

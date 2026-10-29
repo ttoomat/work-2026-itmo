@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-21T12:17:55+0300",
+    "kicad_version": "9.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/56a658a6-1fec-5c76-8f14-bb10f391c70f",
+            "violations": []
+        },
+        {
+            "path": "/01 — Error amplifier / feedback/",
+            "uuid_path": "/56a658a6-1fec-5c76-8f14-bb10f391c70f/0dd8bf1c-e152-5c52-ba58-9879a000000e",
+            "violations": []
+        },
+        {
+            "path": "/02 — Voltage gain / active load/",
+            "uuid_path": "/56a658a6-1fec-5c76-8f14-bb10f391c70f/a2758481-ce34-54ef-a517-d33abe63caff",
+            "violations": []
+        },
+        {
+            "path": "/03 — Diamond current driver/",
+            "uuid_path": "/56a658a6-1fec-5c76-8f14-bb10f391c70f/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e",
+            "violations": []
+        },
+        {
+            "path": "/04 — Class B power / limiters/",
+            "uuid_path": "/56a658a6-1fec-5c76-8f14-bb10f391c70f/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec",
+            "violations": []
+        }
+    ],
+    "source": "class_b_lv.kicad_sch"
+}

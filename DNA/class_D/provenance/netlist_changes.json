@@ -1,0 +1,38 @@
+[
+  {
+    "case": "transient/COM_300nf.cir",
+    "source": "results/manual/calibrated_300nf/test.cir",
+    "source_sha256": "a37f73dc906816a41201965521a6446767a5844a0f5f8e92459b26608cfd3799",
+    "package_sha256": "5906f2a05688262e424b28da4ea4d05ee6bd921ea94b9abc48385911343e4c4f",
+    "only_change": "Relative include paths; all other netlist text unchanged",
+    "analysis": "transient",
+    "load_nF": 300
+  },
+  {
+    "case": "ac/loop_300nf.cir",
+    "source": "results/manual/stability_ac_300nf/test.cir",
+    "source_sha256": "d52c54a4681db426fcf8e7a930b62361fc0e8030d26ee63397d86947e8019bec",
+    "package_sha256": "e500978ed3bf3836c53be3e8681bf0cc82b78f7ba803762c527ec8a51d9362c8",
+    "only_change": "Relative include paths; all other netlist text unchanged",
+    "analysis": "ac",
+    "load_nF": 300
+  },
+  {
+    "case": "transient/COM_1nf.cir",
+    "source": "results/manual/calibrated_1nf/test.cir",
+    "source_sha256": "1e14beb4ca3b94e44eb4708c148fad0af99b4fa1ce820955ce24d85e944e8d35",
+    "package_sha256": "ca3adfb19f27979768c3c3f21b4d1503f1a105ca62fa5fb5d46b13b0cc8e03e7",
+    "only_change": "Relative include paths; all other netlist text unchanged",
+    "analysis": "transient",
+    "load_nF": 1
+  },
+  {
+    "case": "ac/loop_1nf.cir",
+    "source": "results/manual/stability_ac_1nf/test.cir",
+    "source_sha256": "e6b332e8703dbb3551b556753670994c22a6847703f15c9a144370ac1c95e9be",
+    "package_sha256": "5b52c8d65ad176b25b51da300921be4ede5d194f267a8a220a99c5380b785718",
+    "only_change": "Relative include paths; all other netlist text unchanged",
+    "analysis": "ac",
+    "load_nF": 1
+  }
+]

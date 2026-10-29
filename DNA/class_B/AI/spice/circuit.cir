@@ -1,0 +1,181 @@
+LV op amp + common-emitter VAS + Class-B output; vendor models
+.include "model.lib"
+.include "npn.lib"
+.include "pnp.lib"
+.include "refn.lib"
+.include "refp.lib"
+VCC vcc 0 50
+VEE vee 0 -10
+VREF vref 0 0.16548463356974
+VIN vin 0 DC 0 PWL(
++ 0 0
++ 2e-05 0
++ 2.42e-05 0
++ 2.7e-05 0.786830357142857
++ 3e-05 0.786830357142857
++ 3.25e-05 1.171875
++ 3.37e-05 1.171875
++ 3.62e-05 0.786830357142857
++ 3.8e-05 0.786830357142857
++ 4.1e-05 2.48883928571429
++ 4.45e-05 2.48883928571429
++ 4.75e-05 0
++ 5.17e-05 0
++ 5.45e-05 0.786830357142857
++ 5.75e-05 0.786830357142857
++ 6e-05 1.171875
++ 6.12e-05 1.171875
++ 6.37e-05 0.786830357142857
++ 6.55e-05 0.786830357142857
++ 6.85e-05 2.48883928571429
++ 7.2e-05 2.48883928571429
++ 7.5e-05 0
++ 7.92e-05 0
++ 8.2e-05 0.786830357142857
++ 8.5e-05 0.786830357142857
++ 8.75e-05 1.171875
++ 8.87e-05 1.171875
++ 9.12e-05 0.786830357142857
++ 9.3e-05 0.786830357142857
++ 9.6e-05 2.48883928571429
++ 9.95e-05 2.48883928571429
++ 0.0001025 0
++ 0.0001125 0
++ )
+R1 vin inp 100
+* LV voltage error amplifier. VAS is inverting, so its inputs
+* are exchanged relative to the original non-inverting OPA593 composite.
+VLV lvp 0 8.0
+CLVP lvp 0 100n
+CLVN vee 0 100n
+XU1 error_plus inp lv_amp lvp vee OPA810
+VMOPA lv_amp oa_out 0
+RVB oa_out vas_base 47
+QVAS vas vas_base vas_emitter 2N5551
+RVE vas_emitter vee 150
+* Degenerated PNP constant-current load, original FZT953 model.
+DCSREF1 vcc cs_ref1 BAV99HY
+DCSREF2 cs_ref1 cs_ref2 BAV99HY
+RCSREF cs_ref2 vee 11000
+RCS_EMITTER vcc cs_emitter 82.0
+QCS cs_collector cs_ref2 cs_emitter FZT953
+VCS cs_collector vas 0
+* Local frequency-dependent NEGATIVE feedback around the LV op-amp.
+RLOCAL oa_out local_comp 330.0
+CLOCAL local_comp inp 4.7e-09
+RLOCALDC local_comp inp 1000000
+VOA vas drive_meter 0
+VDRIVE drive_meter helper_command 0
+* OPA593 supplies crossover current through RZERO; external BJT pair is unbiased.
+VBIASN drive bias_n 0
+VBIASP drive bias_p 0
+RBASE_N bias_n bn_meter 4.7
+VBN bn_meter bn 0
+RBASE_P bias_p bp_meter 4.7
+VBP bp_meter bp 0
+VCN vcc cn 0
+VCP vee cp 0
+QN cn bn_device en Qmjl3281a
+QP cp bp_device ep Qmjl1302a
+REN en buffer_out 0.22
+REP ep buffer_out 0.22
+RZERO drive buffer_out 22
+VSENSE buffer_out coil_in 0
+LRF coil_in coil_r 1e-07
+RCOIL coil_r iso_in 0.02
+RSHUNT coil_in iso_in 0.47
+VSHORT iso_in hv_wave 0
+R3 buffer_out inv 16920
+R4 inv vref 1000
+C1 vcc 0 1e-07
+C2 vee 0 1e-07
+VLOAD hv_wave load_node 0
+C3 load_node 0 3e-07
+R5 load_node 0 100000
+.temp 27
+.include "output_n.lib"
+.include "output_p.lib"
+* Four-FZT diamond buffer; ONLY the auxiliary stage has standing bias.
+* The main power pair bases share drive, without a VBE spreader.
+.include "driver_n.lib"
+.include "driver_p.lib"
+VHINP vcc helper_in_p 0
+VHINN vee helper_in_n 0
+RHBN helper_command helper_bn 10
+RHBP helper_command helper_bp 10
+QHINN helper_in_p helper_bn helper_lo FZT853
+QHINP helper_in_n helper_bp helper_hi FZT953
+RHBIASP vcc helper_hi 2200
+RHBIASN helper_lo vee 2200
+VHOUTN vcc helper_out_n 0
+VHOUTP vee helper_out_p 0
+QHOUTN helper_out_n helper_hi helper_en FZT853
+QHOUTP helper_out_p helper_lo helper_ep FZT953
+RHEN helper_en drive 2.2
+RHEP helper_ep drive 2.2
+* Original-model reverse B-E clamps on input and output helper devices.
+DHCLIN helper_lo helper_bn BAV99HY
+DHCLIP helper_bp helper_hi BAV99HY
+DHCLON helper_en helper_hi BAV99HY
+DHCLOP helper_lo helper_ep BAV99HY
+* Real VBE current limiters sense the individual emitter resistors.
+* This is NOT SOA foldback or a short-circuit shutdown system.
+VLIMN bn limit_niso 0
+DLIDN limit_niso limit_nc BAV99HY
+VLIMP bp limit_piso 0
+DLIDP limit_pc limit_piso BAV99HY
+RLIMBN en limit_ndiv 2.2
+RLIMBP ep limit_pdiv 2.2
+QLIMN limit_nc limit_nb buffer_out 2N5551
+QLIMP limit_pc limit_pb buffer_out 2N5401
+* Diode-connected BJTs protect the bias and output B-E junctions in overload.
+VCLON buffer_out clamp_n 0
+VCLOP buffer_out clamp_p 0
+DCLON clamp_n clamp_ns1 BAV99HY
+DCLON2 clamp_ns1 clamp_ns2 BAV99HY
+DCLON3 clamp_ns2 clamp_ns3 BAV99HY
+DCLON4 clamp_ns3 bn BAV99HY
+DCLOP clamp_ps1 clamp_p BAV99HY
+DCLOP2 clamp_ps2 clamp_ps1 BAV99HY
+DCLOP3 clamp_ps3 clamp_ps2 BAV99HY
+DCLOP4 bp clamp_ps3 BAV99HY
+.include "clamp_diodes.lib"
+* Loaded sense dividers, with separate true limiter base meters.
+VBLIMN limit_ndiv limit_nb 0
+VBLIMP limit_pdiv limit_pb 0
+VLSHN limit_ndiv limit_nsh 0
+VLSHP limit_pdiv limit_psh 0
+RLSHN limit_nsh buffer_out 10
+RLSHP limit_psh buffer_out 10
+VBQN bn bn_device 0
+VBQP bp bp_device 0
+
+
+XFB inv ys ys lvp vee OPA810
+RDIFF ys error_plus 100
+RDIFFM error_plus mirror_node 330.0
+CDIFF mirror_node 0 4.7e-09
+RDIFFDC mirror_node 0 1000000
+* HF return from the helper bypasses the Class-B crossover load pole.
+CDFC drive dfc_node 1e-09
+RDFC dfc_node inv 470
+CLEAD inv lead_node 1.692e-08
+RLEAD lead_node 0 27.7777777777778
+.include "baker.lib"
+DBAKER vas_base vas BAT46WJ
+* Limit VAS emitter current to avoid the saturated, feedthrough
+* branch of the common-emitter stage. Threshold comes from the real BJT model.
+RVAS_SENSE vas_emitter vas_limit_base 4700
+RVAS_SENSE0 vas_limit_base vee 1000
+QVASLIMIT vas_base vas_limit_base vee 2N5551
+.save all @qvas[ic] @qvas[ib] @qn[ic] @qp[ic] @qcs[ic] @qcs[ib]
+.options reltol=0.0001 abstol=1e-10 vntol=1e-7 method=gear maxord=2 itl4=100
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+tran 5e-09 0.0001125 0 5e-09
+wrdata data.txt v(vin) v(hv_wave) v(oa_out) v(vas) v(inv) v(vas_base) v(vas_emitter) i(VLOAD) i(VCC) i(VEE) i(VLV) i(VMOPA) @qvas[ic] @qvas[ib] v(en) v(ep) @qn[ic] @qp[ic] i(VBQN) i(VBQP) v(drive) v(buffer_out) v(bn_device) v(bp_device) v(cs_emitter) v(cs_ref2) @qcs[ic] @qcs[ib]
+quit
+.endc
+.end

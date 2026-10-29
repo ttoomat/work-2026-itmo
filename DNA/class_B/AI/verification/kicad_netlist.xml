@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\python\hv-wavegen\deliverables\class_b_lv_opa810_2026-10-21\kicad\class_b_lv.kicad_sch</source>
+    <date>2026-10-21T12:17:53+0300</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CLASS B / OPA810 + VAS — interfaces and assembly map</title>
+        <company>Epson FA04010 driver research</company>
+        <rev>LV-B baseline / review</rev>
+        <date>2026-10-21</date>
+        <source>class_b_lv.kicad_sch</source>
+        <comment number="1" value="Native wired schematic; SPICE connectivity audited"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/">
+      <title_block>
+        <title>01 — Low-voltage error amplifier and dual feedback</title>
+        <company>Epson FA04010 driver research</company>
+        <rev>LV-B baseline / review</rev>
+        <date>2026-10-21</date>
+        <source>control.kicad_sch</source>
+        <comment number="1" value="Native wired schematic; SPICE connectivity audited"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/">
+      <title_block>
+        <title>02 — Common-emitter VAS, active current load and clamps</title>
+        <company>Epson FA04010 driver research</company>
+        <rev>LV-B baseline / review</rev>
+        <date>2026-10-21</date>
+        <source>vas.kicad_sch</source>
+        <comment number="1" value="Native wired schematic; SPICE connectivity audited"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/">
+      <title_block>
+        <title>03 — Diamond current driver (four FZT transistors)</title>
+        <company>Epson FA04010 driver research</company>
+        <rev>LV-B baseline / review</rev>
+        <date>2026-10-21</date>
+        <source>diamond.kicad_sch</source>
+        <comment number="1" value="Native wired schematic; SPICE connectivity audited"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/">
+      <title_block>
+        <title>04 — Power emitter followers, current clamps and output isolation</title>
+        <company>Epson FA04010 driver research</company>
+        <rev>LV-B baseline / review</rev>
+        <date>2026-10-21</date>
+        <source>power.kicad_sch</source>
+        <comment number="1" value="Native wired schematic; SPICE connectivity audited"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb524356-9f13-51f2-83fc-0619918325af</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e638fc69-a1f6-5fe9-b9dd-6f2dbca77692</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df725f7e-3ba3-5738-8468-dac1ec6b2a32</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f16d001c-b49e-59f5-b87e-8853446343f8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>300n / TEST</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951ea2df-a2fd-5eb5-8a84-02acd2c30979</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HV SUPPLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233e4a87-3a04-511a-8fb3-6bc86bffb021</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>LV SUPPLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_J2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86ee7bbf-13d1-5784-9a04-0a624c9807e5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>VIN + REFERENCE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_J3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0453e67-6dc8-500e-aa86-0cc6bea154b5</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>COM OUTPUT</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_J4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0df27457-44bf-5ccf-85bf-efbfd85d18a6</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100k / TEST</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="class_b_lv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e51bdc-cabb-569c-8459-a6641e1f7e3a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C3" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>e9c4d695-55a3-5167-b893-5d4809f641cc</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C7" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>eed244c4-9a1b-5c6a-9070-7865b72d67af</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C8" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>0c134743-2522-5bcd-b2bf-ecde70ce8c0c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>16.92n</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_C9" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>adefccdd-b8f7-54de-a4c9-f1bcc03fc9da</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R1" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>01ed868d-e7a2-54ba-8766-b6ebb155ca4f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R6" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>90b94369-e8c1-5f49-aca1-52781786aabb</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1Meg</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R7" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>66293683-ff2e-559a-9d6a-89685b6e2e18</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>16.92k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R14" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>576ed59c-5c56-588d-a4d9-8ee2f8e132af</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R15" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>78fb54ab-ce1a-5aac-ba72-ef424b2ece9c</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R27" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>aedf5992-1ac1-513d-9fc7-9e62c9d5c284</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>330</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R28" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>8c78d189-d468-5cd6-bcc2-8d17667834d8</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1Meg</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R29" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>2aa07d61-8721-5a8c-aa48-34c806f7c70d</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>470</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R30" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>5c622e4a-4152-5b49-bb36-4af50d1318e2</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>27.7778</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R31" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>838ad29f-bc8c-5c6a-a2cd-4e204f68c149</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>OPA810IDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_U1" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>7be84a6c-a1f3-5c40-9691-330fc5523b54</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>OPA810IDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_U2" description=""/>
+      <property name="Sheetname" value="01 — Error amplifier / feedback"/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/01 — Error amplifier / feedback/" tstamps="/0dd8bf1c-e152-5c52-ba58-9879a000000e/"/>
+      <tstamps>b92550af-17d9-51b4-9362-a72dbee7672e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D1" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>2c3a1e6a-abf2-50e4-beea-ba0715fb2442</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>BAT46WJ</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D12" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>bd00ffc0-f47c-5090-b846-986db0e110e8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q1" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>85cdd974-2545-559b-b351-df1ef11030c2</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>FZT953</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q2" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>984bd2b9-9488-5282-85dc-acde58c211ed</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q3" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>c146d775-7578-5e15-b84c-ebb6f84b8e4b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R2" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>f1f8e0bc-081b-5c95-a820-59486861b2f8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>150</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R3" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>d77457a9-6fae-53ec-bf24-cf131a3b8e11</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>11k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R4" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>db93a83c-dec6-5e81-8094-25f0c484085c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>82</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R5" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>b91c10f0-9f5d-5c54-b34a-89a6ca386290</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4.7k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R32" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>9176e05c-0fdc-5a55-8742-c7a2d411846a</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R33" description=""/>
+      <property name="Sheetname" value="02 — Voltage gain / active load"/>
+      <property name="Sheetfile" value="vas.kicad_sch"/>
+      <sheetpath names="/02 — Voltage gain / active load/" tstamps="/a2758481-ce34-54ef-a517-d33abe63caff/"/>
+      <tstamps>4398ef03-1531-5392-862e-c5e71e40f3e8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D2" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>c27369eb-788f-54cb-b348-59fd85eb38a5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D3" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>bef42ced-2c77-51c6-a0b7-81886a8c9711</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D4" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>450574f2-3aa2-55fb-8a64-90886940ce8a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D5" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>9cb49047-4a1e-5719-89d1-abef2f97053b</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>FZT953</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q4" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>9e498ed9-af1f-52db-bcba-2511ad1b5db7</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>FZT853</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q5" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>2f827bac-bf1e-5536-ba55-0390334aa5af</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>FZT853</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q6" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>70484a7d-c627-5ee9-92a6-ffcf6d4525dd</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>FZT953</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q7" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>42187ff4-119c-5244-af4b-05e5b3b7314d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R17" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>e094063b-9bf7-56b8-8806-2700e4ed6d91</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R18" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>eff2fcb5-908c-5abb-b7ff-fe17ecb2899a</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R19" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>5b5a5651-0816-5b0b-b264-1760a7b22d12</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>2.2k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R20" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>8ad75f7b-8234-5e60-ba61-9593fa5d88cf</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2.2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R21" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>7ebfe7f6-46c4-5174-8e3b-000f0138bab5</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>2.2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R22" description=""/>
+      <property name="Sheetname" value="03 — Diamond current driver"/>
+      <property name="Sheetfile" value="diamond.kicad_sch"/>
+      <sheetpath names="/03 — Diamond current driver/" tstamps="/2f8c2cf4-dcb9-513f-a6c6-c9e71032ff4e/"/>
+      <tstamps>81855e63-dd84-5eb0-8909-c80e115d7134</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D6" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>048b1cb8-2f7f-53db-a16d-ecd081b07203</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D7" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>59bcea9c-a7dd-5dce-98b9-79c1da5a5b5e</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D8" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>21d383f5-76fb-5fa7-a43a-aede322e29c5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D9" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>2f450fc4-65c9-54ad-834d-41ba9c6c3bcb</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D10" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>80174c17-52fc-54b7-bea0-f866907bd319</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>BAV99HY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_D11" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>49f52c71-14e8-507c-a6b4-56193dc0789d</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>100n / DCR 20m</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_L1" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>10cd45f3-49cb-5e47-a049-6cb5e6206575</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>MJL3281A</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-264-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q8" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>f484c571-da4f-556f-930e-4b2d11117168</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>MJL1302A</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-264-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q9" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>92e5791f-e502-573d-b71b-212b10321447</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>2N5551</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q10" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>ae4649d9-a230-5de3-b87c-d62e2c9dba15</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>2N5401</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_Q11" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>398a3290-341b-534a-8c69-e7362019656e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R8" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>67201107-8408-554a-bd95-6401a870b16c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R9" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>92e938f2-667d-5b07-8766-5f6479ef9c6b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0.22</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R10" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>070d77a5-d280-51d1-be9b-e4ddb8dbc25c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0.22</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R11" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>700b9bf6-5b32-563c-89ab-91820c120927</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R12" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>39cac37f-c583-5465-8f7c-32767038bd90</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>0.47</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R13" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>a94393c8-f741-547f-9c5b-1b617457ec6d</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>2.2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R23" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>7cbf7356-00fa-5845-a5c5-da123e85b381</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>2.2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R24" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>4e915b24-ab6e-515d-8499-de63fb9397ed</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R25" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>8c46ae95-2255-54d8-b2ee-18150d4b9710</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HV" part="HV_R26" description=""/>
+      <property name="Sheetname" value="04 — Class B power / limiters"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/04 — Class B power / limiters/" tstamps="/56bc2bbb-61f2-58dc-9dc9-8722f327f5ec/"/>
+      <tstamps>213707a5-f09a-5e85-a71a-1b4b553e2e09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="HV" part="HV_C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">4.7n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">300n / TEST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">4.7n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">1n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">16.92n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D10">
+      <fields>
+        <field name="Reference">D10</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D11">
+      <fields>
+        <field name="Reference">D11</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D12">
+      <fields>
+        <field name="Reference">D12</field>
+        <field name="Value">BAT46WJ</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D4">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D5">
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D6">
+      <fields>
+        <field name="Reference">D6</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D7">
+      <fields>
+        <field name="Reference">D7</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D8">
+      <fields>
+        <field name="Reference">D8</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_D9">
+      <fields>
+        <field name="Reference">D9</field>
+        <field name="Value">BAV99HY</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">HV SUPPLY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="power_out"/>
+        <pin num="2" name="" type="power_out"/>
+        <pin num="3" name="" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">LV SUPPLY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="power_out"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">VIN + REFERENCE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">COM OUTPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_L1">
+      <fields>
+        <field name="Reference">L1</field>
+        <field name="Value">100n / DCR 20m</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N5551</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q10">
+      <fields>
+        <field name="Reference">Q10</field>
+        <field name="Value">2N5551</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q11">
+      <fields>
+        <field name="Reference">Q11</field>
+        <field name="Value">2N5401</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">FZT953</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">2N5551</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q4">
+      <fields>
+        <field name="Reference">Q4</field>
+        <field name="Value">FZT953</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q5">
+      <fields>
+        <field name="Reference">Q5</field>
+        <field name="Value">FZT853</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q6">
+      <fields>
+        <field name="Reference">Q6</field>
+        <field name="Value">FZT853</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q7">
+      <fields>
+        <field name="Reference">Q7</field>
+        <field name="Value">FZT953</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q8">
+      <fields>
+        <field name="Reference">Q8</field>
+        <field name="Value">MJL3281A</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-264-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_Q9">
+      <fields>
+        <field name="Reference">Q9</field>
+        <field name="Value">MJL1302A</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-264-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">0.22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">0.22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">0.47</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">16.92k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100k / TEST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">2.2k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">47</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">2.2k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R24">
+      <fields>
+        <field name="Reference">R24</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R25">
+      <fields>
+        <field name="Reference">R25</field>
+        <field name="Value">10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R26">
+      <fields>
+        <field name="Reference">R26</field>
+        <field name="Value">10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R27">
+      <fields>
+        <field name="Reference">R27</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R28">
+      <fields>
+        <field name="Reference">R28</field>
+        <field name="Value">330</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R29">
+      <fields>
+        <field name="Reference">R29</field>
+        <field name="Value">1Meg</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">150</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R30">
+      <fields>
+        <field name="Reference">R30</field>
+        <field name="Value">470</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R31">
+      <fields>
+        <field name="Reference">R31</field>
+        <field name="Value">27.7778</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R32">
+      <fields>
+        <field name="Reference">R32</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R33">
+      <fields>
+        <field name="Reference">R33</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">11k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">82</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">330</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">1Meg</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">4.7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">4.7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">OPA810IDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HV" part="HV_U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">OPA810IDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="HV">
+      <uri>G:\python\hv-wavegen\deliverables\class_b_lv_opa810_2026-10-21\kicad/HV.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+8V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="power_out"/>
+      <node ref="U1" pin="5" pintype="power_in"/>
+      <node ref="U2" pin="5" pintype="power_in"/>
+    </net>
+    <net code="2" name="+50V" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="power_out"/>
+      <node ref="Q5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="-10V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="power_out"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="power_in"/>
+      <node ref="U2" pin="2" pintype="power_in"/>
+    </net>
+    <net code="4" name="BN" class="Default">
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="BP" class="Default">
+      <node ref="D10" pin="1" pintype="passive"/>
+      <node ref="D7" pin="3" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="COM" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="DRIVE" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="FB" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="input"/>
+    </net>
+    <net code="9" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="power_out"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="LV_OUT" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad1)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad2)" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C7-Pad1)" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C8-Pad2)" class="Default">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C9-Pad2)" class="Default">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D8-Pad2)" class="Default">
+      <node ref="D8" pin="2" pintype="passive"/>
+      <node ref="D9" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D10-Pad2)" class="Default">
+      <node ref="D10" pin="2" pintype="passive"/>
+      <node ref="D11" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q1-B)" class="Default">
+      <node ref="D12" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q1-E)" class="Default">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q2-B)" class="Default">
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-E)" class="Default">
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q3-B)" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q4-B)" class="Default">
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q4-E)" class="Default">
+      <node ref="D2" pin="3" pintype="passive"/>
+      <node ref="D4" pin="3" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q5-B)" class="Default">
+      <node ref="D3" pin="3" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q5-E)" class="Default">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q6-E)" class="Default">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q7-E)" class="Default">
+      <node ref="D5" pin="3" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q8-E)" class="Default">
+      <node ref="Q8" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q9-E)" class="Default">
+      <node ref="Q9" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q10-B)" class="Default">
+      <node ref="Q10" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q10-C)" class="Default">
+      <node ref="D6" pin="3" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q11-B)" class="Default">
+      <node ref="Q11" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q11-C)" class="Default">
+      <node ref="D7" pin="1" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R27-Pad1)" class="Default">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+      <node ref="U2" pin="4" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(R27-Pad2)" class="Default">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pintype="input"/>
+    </net>
+    <net code="37" name="OUT_INT" class="Default">
+      <node ref="D11" pin="2" pintype="passive"/>
+      <node ref="D8" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="VAS_OUT" class="Default">
+      <node ref="D12" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="VIN" class="Default">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="VREF" class="Default">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(D1-Pad3)" class="Default">
+      <node ref="D1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(D2-Pad2)" class="Default">
+      <node ref="D2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(D3-Pad2)" class="Default">
+      <node ref="D3" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(D4-Pad2)" class="Default">
+      <node ref="D4" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(D5-Pad2)" class="Default">
+      <node ref="D5" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(D6-Pad2)" class="Default">
+      <node ref="D6" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(D7-Pad2)" class="Default">
+      <node ref="D7" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(D8-Pad3)" class="Default">
+      <node ref="D8" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(D9-Pad3)" class="Default">
+      <node ref="D9" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(D10-Pad3)" class="Default">
+      <node ref="D10" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(D11-Pad3)" class="Default">
+      <node ref="D11" pin="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

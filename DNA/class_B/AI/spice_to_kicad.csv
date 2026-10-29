@@ -1,0 +1,74 @@
+﻿spice_name,reference,junction_index,sheet,spice_value,nodes
+R1,R1,1,2,100,vin inp
+CLVP,C1,1,1,100n,lvp 0
+CLVN,C2,1,1,100n,vee 0
+XU1,U1,1,2,OPA810,error_plus inp oa_out lvp vee
+RVB,R2,1,3,47,oa_out vas_base
+QVAS,Q1,1,3,2N5551,vas vas_base vas_emitter
+RVE,R3,1,3,150,vas_emitter vee
+DCSREF1,D1,1,3,BAV99HY,vcc cs_ref1
+DCSREF2,D1,2,3,BAV99HY,cs_ref1 cs_ref2
+RCSREF,R4,1,3,11000,cs_ref2 vee
+RCS_EMITTER,R5,1,3,82.0,vcc cs_emitter
+QCS,Q2,1,3,FZT953,vas cs_ref2 cs_emitter
+RLOCAL,R6,1,2,330.0,oa_out local_comp
+CLOCAL,C3,1,2,4.7e-09,local_comp inp
+RLOCALDC,R7,1,2,1000000,local_comp inp
+RBASE_N,R8,1,5,4.7,drive bn
+RBASE_P,R9,1,5,4.7,drive bp
+QN,Q8,1,5,Qmjl3281a,vcc bn en
+QP,Q9,1,5,Qmjl1302a,vee bp ep
+REN,R10,1,5,0.22,en buffer_out
+REP,R11,1,5,0.22,ep buffer_out
+RZERO,R12,1,5,22,drive buffer_out
+LRF,L1,1,5,1e-07,buffer_out hv_wave
+RSHUNT,R13,1,5,0.47,buffer_out hv_wave
+R3,R14,1,2,16920,buffer_out inv
+R4,R15,1,2,1000,inv vref
+C1,C4,1,1,1e-07,vcc 0
+C2,C5,1,1,1e-07,vee 0
+C3,C6,1,1,3e-07,hv_wave 0
+R5,R16,1,1,100000,hv_wave 0
+RHBN,R17,1,4,10,vas helper_bn
+RHBP,R18,1,4,10,vas helper_bp
+QHINN,Q5,1,4,FZT853,vcc helper_bn helper_lo
+QHINP,Q4,1,4,FZT953,vee helper_bp helper_hi
+RHBIASP,R19,1,4,2200,vcc helper_hi
+RHBIASN,R20,1,4,2200,helper_lo vee
+QHOUTN,Q6,1,4,FZT853,vcc helper_hi helper_en
+QHOUTP,Q7,1,4,FZT953,vee helper_lo helper_ep
+RHEN,R21,1,4,2.2,helper_en drive
+RHEP,R22,1,4,2.2,helper_ep drive
+DHCLIN,D3,1,4,BAV99HY,helper_lo helper_bn
+DHCLIP,D2,1,4,BAV99HY,helper_bp helper_hi
+DHCLON,D4,1,4,BAV99HY,helper_en helper_hi
+DHCLOP,D5,1,4,BAV99HY,helper_lo helper_ep
+DLIDN,D6,1,5,BAV99HY,bn limit_nc
+DLIDP,D7,1,5,BAV99HY,limit_pc bp
+RLIMBN,R23,1,5,2.2,en limit_nb
+RLIMBP,R24,1,5,2.2,ep limit_pb
+QLIMN,Q10,1,5,2N5551,limit_nc limit_nb buffer_out
+QLIMP,Q11,1,5,2N5401,limit_pc limit_pb buffer_out
+DCLON,D8,1,5,BAV99HY,buffer_out clamp_ns1
+DCLON2,D8,2,5,BAV99HY,clamp_ns1 clamp_ns2
+DCLON3,D9,1,5,BAV99HY,clamp_ns2 clamp_ns3
+DCLON4,D9,2,5,BAV99HY,clamp_ns3 bn
+DCLOP,D11,2,5,BAV99HY,clamp_ps1 buffer_out
+DCLOP2,D11,1,5,BAV99HY,clamp_ps2 clamp_ps1
+DCLOP3,D10,2,5,BAV99HY,clamp_ps3 clamp_ps2
+DCLOP4,D10,1,5,BAV99HY,bp clamp_ps3
+RLSHN,R25,1,5,10,limit_nb buffer_out
+RLSHP,R26,1,5,10,limit_pb buffer_out
+XFB,U2,1,2,OPA810,inv ys ys lvp vee
+RDIFF,R27,1,2,100,ys error_plus
+RDIFFM,R28,1,2,330.0,error_plus mirror_node
+CDIFF,C7,1,2,4.7e-09,mirror_node 0
+RDIFFDC,R29,1,2,1000000,mirror_node 0
+CDFC,C8,1,2,1e-09,drive dfc_node
+RDFC,R30,1,2,470,dfc_node inv
+CLEAD,C9,1,2,1.692e-08,inv lead_node
+RLEAD,R31,1,2,27.7777777777778,lead_node 0
+DBAKER,D12,1,3,BAT46WJ,vas_base vas
+RVAS_SENSE,R32,1,3,4700,vas_emitter vas_limit_base
+RVAS_SENSE0,R33,1,3,1000,vas_limit_base vee
+QVASLIMIT,Q3,1,3,2N5551,vas_base vas_limit_base vee

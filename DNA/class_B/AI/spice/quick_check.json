@@ -1,0 +1,11 @@
+{
+  "rows": 23137,
+  "stop_s": 0.0001125,
+  "evaluated_cycle": 3,
+  "time_shift_s": 0,
+  "max_abs_error_v": 4.993433496388398,
+  "rms_error_v": 1.5987287683578313,
+  "vout_min_v": -4.734365744576382,
+  "vout_max_v": 42.91338993347144,
+  "peak_abs_load_current_a": 5.199327275786345
+}

@@ -1,0 +1,18 @@
+{
+  "cap_nf": 300,
+  "cycles": 1,
+  "expected_us": 49,
+  "stop_us": 49.1,
+  "source": "results/manual/bootstrap_300nf_2periods",
+  "changes": {
+    "command_COM_gain": 0.997,
+    "command_COM_offset_V": 0
+  },
+  "input_calibration": {
+    "original_VIN_per_COM": 0.05314014968379372,
+    "new_VIN_per_COM": 0.05298072923474234,
+    "offset_unchanged": true
+  },
+  "purpose": "Verify one common gain correction at both load endpoints, hardware unchanged",
+  "requirements_not_yet_verified": true
+}

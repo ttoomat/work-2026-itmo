@@ -1,0 +1,23 @@
+{
+  "kicad\\class_b_lv.kicad_pro": "1c8ef64c170ed30df631dba3da8ee681a940298adb30fd49ee423300fd9a6a35",
+  "kicad\\class_b_lv.kicad_sch": "5af47821da8dfc853b08bad067eb87fd3fd0cd52ba286c3aaa01b3a0d72580d1",
+  "kicad\\control.kicad_sch": "b9ba69b40521ac807ed12f0557bb2f967e99f01cf434cc2f854251d7e9c2ba42",
+  "kicad\\diamond.kicad_sch": "5a44f9c330d477b708d37853b7faa99f8b1060ff4b6dcdfe538c47749f30a8ea",
+  "kicad\\HV.kicad_sym": "dd70391d464f3bd6d1574cc8fdd36b052e7b48a0063d8377ccb429c9f3f93bed",
+  "kicad\\power.kicad_sch": "2b4af60e21584fa2b4e2a385a44ba239db88f6bd1b6870f7bc7ec2e46e9f018f",
+  "kicad\\sym-lib-table": "d472b3e1f3304bfca7c1e9df72f4262750cc0a92b24357f224ea0f8aa34894d8",
+  "kicad\\vas.kicad_sch": "94cb45e6a2b76bfb3470f35694a0a0e251483bf27efc6f4ffab76fbd92dbd865",
+  "spice\\.spiceinit": "e62cb73a4bce22300b25a6b726bcc36c740e8b242c16d6bc7b443b53a24cf01f",
+  "spice\\baker.lib": "6d5ff1620979b698989c048112c235d13befdf36fcc28cbdfcec16d44239582d",
+  "spice\\circuit.cir": "f1d40292adc6fc64aff93aa629f9df46b70d7b614ce6f4e02ffa70bd5f53d03a",
+  "spice\\clamp_diodes.lib": "80e361644457553acff12e78349acc79f066603aa1e3716db25827972ea2dd7a",
+  "spice\\driver_n.lib": "42f32b6d2c50c3e90004ef95f446a7c6ed3add83dae7ad7326d70700f6072273",
+  "spice\\driver_p.lib": "ebc384fc7567ef89d75d89eafaa86517ee80249050597d76e6ee008c8aad0198",
+  "spice\\model.lib": "5d50aba881078eb8ed3c47933df4a94d4a64d0cfb7ff67301ad6ef41efe982a2",
+  "spice\\npn.lib": "8f99127ccf8d2ed49db890be71e10d7064f5a0b914b6d5e01514fff173228a45",
+  "spice\\output_n.lib": "55d16681c0fc49b629f54e4ee1822925840aeb111af63a5bc72452cab2b67629",
+  "spice\\output_p.lib": "aed9a7eb47f5b4f8cceaf06338512933acfe5a423108c2a1e2e011962113a149",
+  "spice\\pnp.lib": "77f1c9027fa04d20069055c446d157787c0f396dea55663fe52403c9c7923e4a",
+  "spice\\refn.lib": "cc0911255a41d4e2ca1749b2e6b9474cb89dbed8f526d84c6057e656db9a65c2",
+  "spice\\refp.lib": "3893d04c1a64c252d542f45908269b30d9773e113a404c5e58d74f2e68eb03e4"
+}

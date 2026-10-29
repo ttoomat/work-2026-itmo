@@ -1,0 +1,2 @@
+* Exact model card from installed ADI LTspice; card identifies mfg=Rohm.
+.model BAV99HY D(Is=10.825E-15 N=0.9242 Rs=896.25E-3 Ikf=1.7426E-6 Cjo=640.32E-15 M=0.0662 Vj=0.6504 Isr=9.7471E-9 Bv=100 Tt=4.5428E-9 Iave=0.215 Vpk=100 mfg=Rohm type=Silicon)

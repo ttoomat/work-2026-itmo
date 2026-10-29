@@ -1,0 +1,6 @@
+Plotted to 'G:\python\hv-wavegen\deliverables\class_b_lv_opa810_2026-10-21\class_b_lv_schematic.pdf'.
+Done.
+12:17:54: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Отказано в доступе.)
+12:17:54: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 2: Не удается найти указанный файл.)
+12:17:54: Ошибка: Произошла ошибка при попытке загрузить глобальную таблицу библиотек дизайн-блоков.
+Пожалуйста, отредактируйте эту глобальную таблицу библиотек дизайн-блоков в меню Настройки. Permission denied

@@ -1,0 +1,314 @@
+{
+  "simulator_used_for_source_results": "LTspice 24.1.3 Windows",
+  "packaged_cases_not_rerun": true,
+  "dependency_files": 6,
+  "checks": [
+    "All include paths resolve inside bundle",
+    "Original models and compatible copies match adaptation manifest",
+    "Netlists identical to completed source cases except include paths"
+  ],
+  "copied_files": [
+    {
+      "source": "models/compatible/OPA859.lib",
+      "package": "models/compatible/OPA859.lib",
+      "sha256": "43c190cc81e8380e1dc972150869b4c6f1d5edda36d3a89dddc97f6652c0c802"
+    },
+    {
+      "source": "models/vendor/opa810_sbomb73a/opa810_a.lib",
+      "package": "models/vendor/opa810_sbomb73a/opa810_a.lib",
+      "sha256": "5d50aba881078eb8ed3c47933df4a94d4a64d0cfb7ff67301ad6ef41efe982a2"
+    },
+    {
+      "source": "models/compatible/TLV3603.lib",
+      "package": "models/compatible/TLV3603.lib",
+      "sha256": "ba171a0d56a66d874315996275375b60fabbdd4eb65e394e00c1c63d003007b9"
+    },
+    {
+      "source": "models/compatible/EPC2214.lib",
+      "package": "models/compatible/EPC2214.lib",
+      "sha256": "f44d1cc13734a7c7fd769428a86b980d6ad84a73f8b485a5baed36b418db9ad5"
+    },
+    {
+      "source": "models/compatible/LMG1210.lib",
+      "package": "models/compatible/LMG1210.lib",
+      "sha256": "3a162b8121219270113ff7448067c435ea49f31ee3ef384e4423f819f1be8168"
+    },
+    {
+      "source": "models/vendor/bat46wj/BAT46WJ.lib",
+      "package": "models/vendor/bat46wj/BAT46WJ.lib",
+      "sha256": "6d5ff1620979b698989c048112c235d13befdf36fcc28cbdfcec16d44239582d"
+    },
+    {
+      "source": "results/manual/calibrated_300nf/case.json",
+      "package": "provenance/COM_300nf_case.json",
+      "sha256": "fe143059b13221d8118a66866bc6c3ad22c2eff2a0efa15d4a09f7049f23cbac"
+    },
+    {
+      "source": "results/manual/stability_ac_300nf/case.json",
+      "package": "provenance/loop_300nf_case.json",
+      "sha256": "89c83c4e935c966a6c1ee88ce417eefd31c18e5596393af9f1d80d9926a7e467"
+    },
+    {
+      "source": "results/manual/calibrated_1nf/case.json",
+      "package": "provenance/COM_1nf_case.json",
+      "sha256": "232ff587ef1547bff73844ecf9670566a3b97d04dbd754164d1e071c4b3d219d"
+    },
+    {
+      "source": "results/manual/stability_ac_1nf/case.json",
+      "package": "provenance/loop_1nf_case.json",
+      "sha256": "dbd4208a8a108c0d908e1442c23bf0758484915025b07c1039243b583a2c0097"
+    },
+    {
+      "source": "models/vendor/opa859_sbomas2/OPA859.LIB",
+      "package": "models/vendor/opa859_sbomas2/OPA859.LIB",
+      "sha256": "d4bb5827a01a663731d304d9671b4d8bb7db750c9ebe4aea719553e3ba651f6d"
+    },
+    {
+      "source": "models/vendor/tlv3603_pspice/tlv3603.lib",
+      "package": "models/vendor/tlv3603_pspice/tlv3603.lib",
+      "sha256": "3178f0c418e4c195cad7897c1ee2d69842a31590fa9de603553d802608a5cccc"
+    },
+    {
+      "source": "models/vendor/lmg1210_snom677/LMG1210_PSPICE_TRANS/LMG1210_TRANS.lib",
+      "package": "models/vendor/lmg1210_snom677/LMG1210_PSPICE_TRANS/LMG1210_TRANS.lib",
+      "sha256": "f4442e8fb5745e5470c397a6dd2185424f466f186fa2341f824052b3fbc27087"
+    },
+    {
+      "source": "models/vendor/epc2051/EPCGaNLibrary.lib",
+      "package": "models/vendor/epc2051/EPCGaNLibrary.lib",
+      "sha256": "d248be2d399ebd11576be15423a6ce51badea4de134ef9af44b24972d146a675"
+    },
+    {
+      "source": "docs/spice_handoff_instructions.txt",
+      "package": "START_HERE_RU.txt",
+      "sha256": "46ec6d580a318f6861e27790c699f83b471b8e4a42f0b013bb3a3b39c04f6213"
+    },
+    {
+      "source": "hardware/readable/COM_readable.pdf",
+      "package": "reference/COM_schematic.pdf",
+      "sha256": "e2d2e2b80118218418d38a9f2041878d619c5b2f1382b4946dc60a44fc49b5e8"
+    },
+    {
+      "source": "hardware/bom.csv",
+      "package": "reference/bom.csv",
+      "sha256": "d525c0edd955113733c04bdf53909a53c4592467e6486d9fb29b9a5bada9fb7e"
+    },
+    {
+      "source": "hardware/kicad/reference_map.csv",
+      "package": "reference/reference_map.csv",
+      "sha256": "61d158f1a8a520660c31b77b96dec2fa3a35e5a03786773ab57a1125a8ae0e2b"
+    },
+    {
+      "source": "spec/waveform.json",
+      "package": "reference/waveform_spec.json",
+      "sha256": "93b920ea7d25473a2f34637d223dcc809be237a4c92639ce3fa189a679a15727"
+    },
+    {
+      "source": "epson_hv_target_plateaus_corrected.json",
+      "package": "reference/epson_hv_target_plateaus_corrected.json",
+      "sha256": "cc3e40c3a70750e3c7e3c2640756982c393103eeecacf5354f029edb86d75402"
+    },
+    {
+      "source": "results/manual/calibrated_300nf/audit.pdf",
+      "package": "reference/waveform_300nf.pdf",
+      "sha256": "53900d7f4ba34faabfcb192c1fa8ac1c65036b8a0ee1ceab0eba4e6914d3421d"
+    },
+    {
+      "source": "results/manual/calibrated_1nf/audit.pdf",
+      "package": "reference/waveform_1nf.pdf",
+      "sha256": "41bd161706298e70765dc6ac61c29b34125338c9b6ff8c2c7bc3bb0f54aa8601"
+    },
+    {
+      "source": "results/review/errors_and_switching.pdf",
+      "package": "reference/errors_and_switching.pdf",
+      "sha256": "f08e990bbab830789b716c3575990544cdc7cac42ae0f3525ffaa64da7ffd02d"
+    },
+    {
+      "source": "results/review/loop_gain_vendor_u1.pdf",
+      "package": "reference/loop_gain_vendor_u1.pdf",
+      "sha256": "ef6bfdf23f0b4e0231564b25209f726ad6c85dec2ed7b94a8561358c1977d2d2"
+    },
+    {
+      "source": "results/review/ac_result_notes.txt",
+      "package": "reference/ac_result_notes.txt",
+      "sha256": "ca0039a48b749b17ac918a2b979202e4856625b3d9e43b2e365c2bebc98f1a32"
+    },
+    {
+      "source": "models/vendor/bat46wj/provenance.json",
+      "package": "provenance/BAT46WJ_source.json",
+      "sha256": "8b69c9c1153ce2437803ffca17dcf52cce29e4bdf9cfa218bd08d6e4026dc2bb"
+    },
+    {
+      "source": "models/vendor/epc2051/provenance.json",
+      "package": "provenance/EPC_library_source.json",
+      "sha256": "3a27a432f5b7adc2145159a55d1fa16496240c9a1e94ef346c815d196754f9c0"
+    }
+  ],
+  "files": [
+    {
+      "path": "ac/loop_1nf.cir",
+      "sha256": "5b52c8d65ad176b25b51da300921be4ede5d194f267a8a220a99c5380b785718",
+      "bytes": 1492
+    },
+    {
+      "path": "ac/loop_300nf.cir",
+      "sha256": "e500978ed3bf3836c53be3e8681bf0cc82b78f7ba803762c527ec8a51d9362c8",
+      "bytes": 1494
+    },
+    {
+      "path": "models/compatible/EPC2214.lib",
+      "sha256": "f44d1cc13734a7c7fd769428a86b980d6ad84a73f8b485a5baed36b418db9ad5",
+      "bytes": 2855
+    },
+    {
+      "path": "models/compatible/LMG1210.lib",
+      "sha256": "3a162b8121219270113ff7448067c435ea49f31ee3ef384e4423f819f1be8168",
+      "bytes": 36654
+    },
+    {
+      "path": "models/compatible/OPA859.lib",
+      "sha256": "43c190cc81e8380e1dc972150869b4c6f1d5edda36d3a89dddc97f6652c0c802",
+      "bytes": 14802
+    },
+    {
+      "path": "models/compatible/TLV3603.lib",
+      "sha256": "ba171a0d56a66d874315996275375b60fabbdd4eb65e394e00c1c63d003007b9",
+      "bytes": 12130
+    },
+    {
+      "path": "models/vendor/bat46wj/BAT46WJ.lib",
+      "sha256": "6d5ff1620979b698989c048112c235d13befdf36fcc28cbdfcec16d44239582d",
+      "bytes": 114
+    },
+    {
+      "path": "models/vendor/epc2051/EPCGaNLibrary.lib",
+      "sha256": "d248be2d399ebd11576be15423a6ce51badea4de134ef9af44b24972d146a675",
+      "bytes": 345667
+    },
+    {
+      "path": "models/vendor/lmg1210_snom677/LMG1210_PSPICE_TRANS/LMG1210_TRANS.lib",
+      "sha256": "f4442e8fb5745e5470c397a6dd2185424f466f186fa2341f824052b3fbc27087",
+      "bytes": 34852
+    },
+    {
+      "path": "models/vendor/opa810_sbomb73a/opa810_a.lib",
+      "sha256": "5d50aba881078eb8ed3c47933df4a94d4a64d0cfb7ff67301ad6ef41efe982a2",
+      "bytes": 12589
+    },
+    {
+      "path": "models/vendor/opa859_sbomas2/OPA859.LIB",
+      "sha256": "d4bb5827a01a663731d304d9671b4d8bb7db750c9ebe4aea719553e3ba651f6d",
+      "bytes": 14389
+    },
+    {
+      "path": "models/vendor/tlv3603_pspice/tlv3603.lib",
+      "sha256": "3178f0c418e4c195cad7897c1ee2d69842a31590fa9de603553d802608a5cccc",
+      "bytes": 11322
+    },
+    {
+      "path": "provenance/BAT46WJ_source.json",
+      "sha256": "8b69c9c1153ce2437803ffca17dcf52cce29e4bdf9cfa218bd08d6e4026dc2bb",
+      "bytes": 210
+    },
+    {
+      "path": "provenance/COM_1nf_case.json",
+      "sha256": "232ff587ef1547bff73844ecf9670566a3b97d04dbd754164d1e071c4b3d219d",
+      "bytes": 511
+    },
+    {
+      "path": "provenance/COM_300nf_case.json",
+      "sha256": "fe143059b13221d8118a66866bc6c3ad22c2eff2a0efa15d4a09f7049f23cbac",
+      "bytes": 513
+    },
+    {
+      "path": "provenance/EPC_library_source.json",
+      "sha256": "3a27a432f5b7adc2145159a55d1fa16496240c9a1e94ef346c815d196754f9c0",
+      "bytes": 359
+    },
+    {
+      "path": "provenance/loop_1nf_case.json",
+      "sha256": "dbd4208a8a108c0d908e1442c23bf0758484915025b07c1039243b583a2c0097",
+      "bytes": 418
+    },
+    {
+      "path": "provenance/loop_300nf_case.json",
+      "sha256": "89c83c4e935c966a6c1ee88ce417eefd31c18e5596393af9f1d80d9926a7e467",
+      "bytes": 418
+    },
+    {
+      "path": "provenance/model_adaptations.json",
+      "sha256": "84c0fa8675a1e201fa5426c829ad16c1cb4e55ea70e100e5197d012b839fb25c",
+      "bytes": 8213
+    },
+    {
+      "path": "provenance/netlist_changes.json",
+      "sha256": "498a1a3eb15b1d81e5b1a5e4fe951349e5731db732cea4ce09d35fe19e265e3f",
+      "bytes": 1653
+    },
+    {
+      "path": "reference/ac_result_notes.txt",
+      "sha256": "ca0039a48b749b17ac918a2b979202e4856625b3d9e43b2e365c2bebc98f1a32",
+      "bytes": 2772
+    },
+    {
+      "path": "reference/bom.csv",
+      "sha256": "d525c0edd955113733c04bdf53909a53c4592467e6486d9fb29b9a5bada9fb7e",
+      "bytes": 17467
+    },
+    {
+      "path": "reference/COM_schematic.pdf",
+      "sha256": "e2d2e2b80118218418d38a9f2041878d619c5b2f1382b4946dc60a44fc49b5e8",
+      "bytes": 70151
+    },
+    {
+      "path": "reference/epson_hv_target_plateaus_corrected.json",
+      "sha256": "cc3e40c3a70750e3c7e3c2640756982c393103eeecacf5354f029edb86d75402",
+      "bytes": 719
+    },
+    {
+      "path": "reference/errors_and_switching.pdf",
+      "sha256": "f08e990bbab830789b716c3575990544cdc7cac42ae0f3525ffaa64da7ffd02d",
+      "bytes": 122375
+    },
+    {
+      "path": "reference/loop_gain_vendor_u1.pdf",
+      "sha256": "ef6bfdf23f0b4e0231564b25209f726ad6c85dec2ed7b94a8561358c1977d2d2",
+      "bytes": 28525
+    },
+    {
+      "path": "reference/reference_map.csv",
+      "sha256": "61d158f1a8a520660c31b77b96dec2fa3a35e5a03786773ab57a1125a8ae0e2b",
+      "bytes": 8160
+    },
+    {
+      "path": "reference/waveform_1nf.pdf",
+      "sha256": "41bd161706298e70765dc6ac61c29b34125338c9b6ff8c2c7bc3bb0f54aa8601",
+      "bytes": 84037
+    },
+    {
+      "path": "reference/waveform_300nf.pdf",
+      "sha256": "53900d7f4ba34faabfcb192c1fa8ac1c65036b8a0ee1ceab0eba4e6914d3421d",
+      "bytes": 49894
+    },
+    {
+      "path": "reference/waveform_spec.json",
+      "sha256": "93b920ea7d25473a2f34637d223dcc809be237a4c92639ce3fa189a679a15727",
+      "bytes": 2605
+    },
+    {
+      "path": "START_HERE_RU.txt",
+      "sha256": "46ec6d580a318f6861e27790c699f83b471b8e4a42f0b013bb3a3b39c04f6213",
+      "bytes": 9946
+    },
+    {
+      "path": "transient/COM_1nf.cir",
+      "sha256": "ca3adfb19f27979768c3c3f21b4d1503f1a105ca62fa5fb5d46b13b0cc8e03e7",
+      "bytes": 33709
+    },
+    {
+      "path": "transient/COM_300nf.cir",
+      "sha256": "5906f2a05688262e424b28da4ea4d05ee6bd921ea94b9abc48385911343e4c4f",
+      "bytes": 33711
+    }
+  ]
+}

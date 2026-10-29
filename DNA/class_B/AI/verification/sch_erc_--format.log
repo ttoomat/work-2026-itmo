@@ -1,0 +1,8 @@
+Найдено 0 нарушений
+Отчёт ERC сохранен в G:\python\hv-wavegen\deliverables\class_b_lv_opa810_2026-10-21\verification\erc.json
+12:17:55: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Отказано в доступе.)
+12:17:55: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 2: Не удается найти указанный файл.)
+12:17:55: Ошибка: Произошла ошибка при попытке загрузить глобальную таблицу библиотек дизайн-блоков.
+Пожалуйста, отредактируйте эту глобальную таблицу библиотек дизайн-блоков в меню Настройки. Permission denied
+12:17:55: Ошибка: Сбой копирования файла 'C:\Program Files\KiCad\9.0\share/kicad/template\fp-lib-table' в 'C:\Users\Ilya\AppData\Roaming\kicad\9.0\fp-lib-table'. (ошибка 5: Отказано в доступе.)
+12:17:55: Ошибка: При попытке загрузить глобальную таблицу библиотек посад. мест произошла ошибка. Permission denied

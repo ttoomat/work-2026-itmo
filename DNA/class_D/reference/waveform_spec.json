@@ -1,0 +1,115 @@
+{
+  "status": "User confirmed the complete corrected 39 us fragment and provisional prototype acceptance targets on 2026-10-20",
+  "time_unit": "us",
+  "voltage_unit": "V",
+  "source_file": "epson_hv_target_plateaus_corrected.json",
+  "time_origin_shift_us": 4,
+  "points": [
+    [
+      0,
+      11.3
+    ],
+    [
+      3,
+      11.3
+    ],
+    [
+      4,
+      -2.8
+    ],
+    [
+      8.2,
+      -2.8
+    ],
+    [
+      11,
+      11.3
+    ],
+    [
+      14,
+      11.3
+    ],
+    [
+      16.5,
+      18.2
+    ],
+    [
+      17.7,
+      18.2
+    ],
+    [
+      20.2,
+      11.3
+    ],
+    [
+      22,
+      11.3
+    ],
+    [
+      25,
+      41.8
+    ],
+    [
+      28.5,
+      41.8
+    ],
+    [
+      31.5,
+      -2.8
+    ],
+    [
+      34.5,
+      -2.8
+    ],
+    [
+      35.5,
+      11.3
+    ],
+    [
+      39,
+      11.3
+    ]
+  ],
+  "load_capacitances_nf": [
+    1,
+    10,
+    30,
+    100,
+    300
+  ],
+  "input_voltage_range_v": [
+    0,
+    2.5
+  ],
+  "fpga_clock": {
+    "frequency_hz": 8000000,
+    "duty_cycle": 0.5,
+    "status": "User confirmed available; analogue command input retained"
+  },
+  "head_model": "FA04010",
+  "supply_voltages_v": [
+    -10,
+    50
+  ],
+  "continuous_repetition_period_us": 39,
+  "load_switching": "Constant within waveform; changed during a programmable pause",
+  "placement": "Amplifier may be placed at printhead connector",
+  "original_cable": "User confirmed FPC <=20 mm, 1 mm pitch, COM adjacent to GND; inductance and resistance still unmeasured",
+  "scope_sample_rate_msps": 16,
+  "assumed_input_mapping": "Nominal front-end span about -4..43 V for VIN 0..2.5 V; user permits two-point gain and offset calibration in FPGA/DAC",
+  "provisional_acceptance": {
+    "source": "Agreed engineering targets for prototype; not Epson specifications",
+    "settled_plateau_level_error_abs_max_v": 0.2,
+    "settled_plateau_ripple_pp_max_v": 0.2,
+    "excursion_beyond_extreme_levels_max_v": 0.5,
+    "delay": "Measure and report separately; a constant delay may be accounted for in FPGA",
+    "corner_rounding": "Measure and report; numerical limit not specified"
+  },
+  "procurement": "Any of the discussed distributors acceptable; require stocked active components at reasonable prototype cost",
+  "unconfirmed": [
+    "head equivalent circuit",
+    "final board size",
+    "supply energy absorption capability"
+  ],
+  "output_connection": "User selected COM/GND solder pads to existing adapter; no head FPC connector required on amplifier PCB"
+}
