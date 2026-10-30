@@ -323,6 +323,18 @@
     [
       "25d8e2d5-2e70-4e34-a803-caf0c360ef09",
       "PWM and triangle generator"
+    ],
+    [
+      "d53594eb-185f-429b-b02e-22b54c34222c",
+      "Driver and half bridge"
+    ],
+    [
+      "d9923d8f-e1b5-4ba6-8409-008755c4134f",
+      "Power"
+    ],
+    [
+      "2dfab0c4-05c1-464c-b1a1-b773578db8d8",
+      "FPGA interface"
     ]
   ],
   "text_variables": {}
