@@ -319,6 +319,14 @@
     [
       "58c17323-b443-4c54-9eb5-2f22093399a5",
       "Voltage gain"
+    ],
+    [
+      "6bfad1d7-747c-4fd8-8d3a-a1574450fb6b",
+      "Diamond current driver"
+    ],
+    [
+      "509143df-a4c0-4140-b4f1-78d7ca1ab679",
+      "Class B power"
     ]
   ],
   "text_variables": {}
