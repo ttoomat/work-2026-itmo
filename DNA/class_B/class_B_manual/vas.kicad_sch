@@ -530,6 +530,10 @@
     (stroke (width 0) (type default))
     (uuid b77c9791-d279-494e-92c9-e25521ded2a1)
   )
+  (wire (pts (xy 142.24 76.2) (xy 142.24 80.01))
+    (stroke (width 0) (type default))
+    (uuid bd86ff82-cc1a-43b5-9055-5c1df2223e73)
+  )
   (wire (pts (xy 95.25 41.91) (xy 130.81 41.91))
     (stroke (width 0) (type default))
     (uuid bf44821a-542f-4759-a9ab-559679d7f3f2)
@@ -590,6 +594,10 @@
     (stroke (width 0) (type default))
     (uuid fb744d3a-a5d8-4d94-9ed9-d32161c3c339)
   )
+  (wire (pts (xy 85.09 86.36) (xy 85.09 90.17))
+    (stroke (width 0) (type default))
+    (uuid fbcebf68-914d-4b5e-8160-5c11d40589f5)
+  )
 
   (text "Часть схемы с Q3:\nR13 - шунт, на котором есть некоторое падение напряжения\nR11, R12 - делитель этого напряжения. Т.е. если на R13 большое\nпадение напряжения, то Q3 начинает притягивать базу Q1 к -10 В,\nпризакрывая его."
     (at 114.3 142.24 0)
@@ -624,6 +632,15 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 169.1965 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+  )
+
+  (hierarchical_label "VAS_OUT" (shape output) (at 142.24 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1ec2c6bd-7266-4a77-82ff-a9d718d13606)
+  )
+  (hierarchical_label "LV_OUT" (shape input) (at 85.09 86.36 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 73056e25-d23e-4778-b44d-d43bece2d367)
   )
 
   (symbol (lib_id "Diode:BAV99") (at 95.25 52.07 270) (unit 1)
