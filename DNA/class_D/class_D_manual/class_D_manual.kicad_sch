@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d93543c2-968a-4bbd-9580-bf9b3e26f4fe)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 35.56) (size 20.32 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0d902e54-716c-46b6-8755-de7cf1aaf7d9)
+    (property "Sheetname" "Analog input" (at 50.8 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "analog_input.kicad_sch" (at 50.8 45.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "class_D_manual"
+        (path "/d93543c2-968a-4bbd-9580-bf9b3e26f4fe" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 53.34 68.58) (size 24.13 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 25d8e2d5-2e70-4e34-a803-caf0c360ef09)
+    (property "Sheetname" "PWM and triangle generator" (at 53.34 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pwm_gen.kicad_sch" (at 53.34 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "class_D_manual"
+        (path "/d93543c2-968a-4bbd-9580-bf9b3e26f4fe" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 35.56) (size 26.67 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cdbd0df6-ce83-49cf-88e0-7e0c953d2552)
+    (property "Sheetname" "Feedback and compensation" (at 102.87 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "fb_and_comp.kicad_sch" (at 102.87 48.8446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "class_D_manual"
+        (path "/d93543c2-968a-4bbd-9580-bf9b3e26f4fe" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
