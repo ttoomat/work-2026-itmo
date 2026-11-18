@@ -1,0 +1,77 @@
+* HV R0.4-T; фиксированные температуры, не электротепловая модель.
+.param CLOAD=10n R29VAL=79.033959048
+* Расчётная основа R0.4-T: фиксированные температуры номинального прогрева.
+* Модели загружаются отдельно в models; см. НАЧАТЬ ЗДЕСЬ.txt.
+* Точная структура усилителя KiCad; вход — сохранённый выход Бесселя-4
+.include models/AD8055_archive.cir
+.include models/2N5551.LIB
+.include models/2N5401.LIB
+.include models/output_pair.lib
+VHP HP 0 55
+VHN HN 0 -10
+VLP LP 0 5
+VLN LN 0 -5
+C1 UP ESR1 82p
+R22 ESR1 PB 10
+C2 DRIVE ESR2 18p
+R23 ESR2 FB 1
+C3 PREOUT ESR3 15p
+R24 ESR3 FB 10
+C4 LP 0 100n
+C5 LN 0 100n
+C6 LP 0 1u
+C7 LN 0 1u
+C8 HP 0 100n
+C9 HN 0 100n
+C10 HP 0 10u
+C11 HN 0 10u
+D1 IB DM D4148
+D2 DM HN D4148
+D3 FB VP D4148
+D4 VP FB D4148
+Q1 PB QB E1 2N5551 TEMP=88.703058
+Q2 UP PB EP 2N5401 TEMP=65.408929
+Q3 DOWN IB ES 2N5551 TEMP=43.390307
+Q4 UP BIAS DOWN 2N5551 TEMP=39.659939
+Q5 HP BU EU Qucs_BD139 TEMP=48.676868
+Q6 HN BD ED Qucs_BD136_138_140 TEMP=42.664780
+R1 VIN VP 1k
+R2 VP 0 1k
+R3 DRIVE QB 2200
+R4 E1 0 150
+R5 PREOUT E1 10k
+R6 HP PB 180
+R7 HP EP 100
+R8 UP BIAS 2700
+R9 BIAS BIAS_TRIM 1000
+R29 BIAS_TRIM DOWN {R29VAL}
+R10 DN BU 47
+R11 DP BD 47
+R12 EU PREOUT 2.2
+R13 PREOUT ED 2.2
+R14 BU EU 470
+R15 BD ED 470
+R16 PREOUT OUT 6.8
+R17 ES HN 130
+R18 0 IB 3.3k
+R19 OUT FB 16k
+R20 FB 0 512
+R21 LP FB 9.53k
+XU1 VP FB LP LN DRIVE AD8055an/AD
+Rload OUT 0 1Meg
+Cload OUT 0 {CLOAD}
+
+
+* Q7/Q8 — предвыходные повторители; Q1/Q2 остаются VAS.
+Q7 HP BN DN 2N5551 TEMP=42.767295
+Q8 HN BP DP 2N5401 TEMP=41.185912
+R25 BN DN 4.7k
+R26 DP BP 4.7k
+R27 UP BN 100
+R28 DOWN BP 100
+
+.temp 25.000000
+.options reltol=1e-4 vntol=1e-6 abstol=1e-10 gmin=1e-12 method=gear maxord=2
+
+
+

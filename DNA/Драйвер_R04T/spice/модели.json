@@ -1,0 +1,29 @@
+{
+  "2N5551.LIB": {
+    "sha256": "cc0911255a41d4e2ca1749b2e6b9474cb89dbed8f526d84c6057e656db9a65c2",
+    "url": "https://central.aeminc.com/docs/ENGINEERING/CSM/2N5551.LIB"
+  },
+  "2N5401.LIB": {
+    "sha256": "3893d04c1a64c252d542f45908269b30d9773e113a404c5e58d74f2e68eb03e4",
+    "url": "https://central.aeminc.com/docs/ENGINEERING/CSM/2N5401.LIB"
+  },
+  "AD8055_archive.cir": {
+    "sha256": "717ebe7ce71618c21728dad094756876ae5596ebeb0ef4fc285d4f03de633e4e",
+    "url": "https://ltwiki.org/files/LTspiceIV/Vendor%20List/Analog%20Devices_Spice_Files/OpAmps/Spice/anlg_dev.lib",
+    "описание": "Архивная модель ADI RevA 1997, извлекается без изменения, не официальная новая модель ADI."
+  },
+  "Qucs": {
+    "library": {
+      "url": "https://raw.githubusercontent.com/Qucs/qucs/4f8625ef32619a650ca78d1785e684077f5aac1d/qucs-lib/library/Transistors.lib",
+      "sha256": "f9d9774e4e500e3300fbef9d17bdc2afad66e3f70a61e7021fd152ede7f71aa3"
+    },
+    "properties": {
+      "url": "https://raw.githubusercontent.com/Qucs/qucs/4f8625ef32619a650ca78d1785e684077f5aac1d/qucs/components/bjtsub.cpp",
+      "sha256": "4fbc74284e9cc84c18decd33250fae6c8e50339d9c9bd2dd4fcccbdea446dab5"
+    }
+  },
+  "output_pair.lib": {
+    "sha256": "d8e088d4fab2cb9d8799817b041075de89f0dcde1f6b571e2b10b7b84b6b2906",
+    "описание": "Параметры Qucs, не ST. PNP семейства BD136/138/140, Tf=0. Локальное преобразование загрузчиком."
+  }
+}

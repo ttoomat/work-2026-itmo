@@ -1,0 +1,6 @@
+* HV R0.4-T — dc
+.include core.inc
+VIN VIN 0 DC 1.16092997363477
+.op
+.save v(vin) v(out) v(preout) v(drive) v(up) v(down)
+.end

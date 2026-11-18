@@ -1,0 +1,6 @@
+* HV R0.4-T — ideal
+.include core.inc
+.include input_ideal.inc
+.tran 2n 64u 0 2n
+.save v(vin) v(out) v(preout) v(drive) v(up) v(down)
+.end
