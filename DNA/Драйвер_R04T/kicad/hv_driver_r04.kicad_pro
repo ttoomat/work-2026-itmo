@@ -417,13 +417,21 @@
         "uuid": "ff27c528-6b13-5c20-a60b-c94c591564d3"
       }
     ],
-    "used_designators": "C1,R22",
+    "used_designators": "C1-3,R1-9,R17-24,R29,#PWR1-4,DA1,X1,VT1-4,VD1-4",
     "variants": []
   },
   "sheets": [
     [
       "ff27c528-6b13-5c20-a60b-c94c591564d3",
       "hv_driver_r04"
+    ],
+    [
+      "0462a545-c9d4-4c4f-8b86-d95c0ec6a8ca",
+      "Входной каскад"
+    ],
+    [
+      "14e47363-1d17-4673-97ce-847c501d825e",
+      "Смещение AB"
     ],
     [
       "a4ca9058-1abe-5157-963a-61b1ae050805",
