@@ -1,0 +1,417 @@
+{
+  "version": 17,
+  "board": {
+    "type": "perma-proto",
+    "cols": 32,
+    "rows": 20,
+    "color": "white"
+  },
+  "pads": [
+    {
+      "at": [
+        1,
+        4
+      ],
+      "note": "J1.4 VIN"
+    },
+    {
+      "at": [
+        1,
+        15
+      ],
+      "note": "J2.1 PREOUT"
+    },
+    {
+      "at": [
+        2,
+        4
+      ],
+      "note": "J1.3 GND"
+    },
+    {
+      "at": [
+        2,
+        15
+      ],
+      "note": "J2.2 OUT"
+    },
+    {
+      "at": [
+        3,
+        4
+      ],
+      "note": "J1.2 -5V"
+    },
+    {
+      "at": [
+        4,
+        4
+      ],
+      "note": "J1.1 +5V"
+    },
+    {
+      "at": [
+        8,
+        8
+      ],
+      "note": "VP (DA1.3)"
+    },
+    {
+      "at": [
+        8,
+        12
+      ],
+      "note": "DRIVE (DA1.6)"
+    },
+    {
+      "at": [
+        9,
+        5
+      ],
+      "note": "FB (DA1.2)"
+    }
+  ],
+  "wires": [
+    {
+      "side": "bottom",
+      "from": [
+        3,
+        7
+      ],
+      "to": [
+        7,
+        5
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "side": "bottom",
+      "from": [
+        4,
+        5
+      ],
+      "to": [
+        6,
+        4
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "side": "bottom",
+      "from": [
+        6,
+        8
+      ],
+      "to": [
+        9,
+        12
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "side": "bottom",
+      "from": [
+        2,
+        6
+      ],
+      "to": [
+        2,
+        1
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "from": [
+        12,
+        4
+      ],
+      "to": [
+        9,
+        4
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "from": [
+        1,
+        11
+      ],
+      "to": [
+        4,
+        11
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "from": [
+        28,
+        1
+      ],
+      "to": [
+        28,
+        17
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "side": "bottom",
+      "from": [
+        9,
+        6
+      ],
+      "to": [
+        5,
+        11
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    },
+    {
+      "side": "bottom",
+      "from": [
+        1,
+        8
+      ],
+      "to": [
+        5,
+        8
+      ],
+      "color": "#3b82f6",
+      "width": 4
+    }
+  ],
+  "placedIcs": [
+    {
+      "ref": "DA1",
+      "instanceId": "264e08e6-2ead-48a7-ad31-c9f5f82e9bd2",
+      "name": "AD8055AN (PDIP-8)",
+      "widthPin": 4,
+      "heightPin": 4,
+      "rotation": 90,
+      "pinDescription": {
+        "1": "NC1",
+        "2": "IN-",
+        "3": "IN+",
+        "4": "V-",
+        "5": "NC5",
+        "6": "OUT",
+        "7": "V+",
+        "8": "NC8"
+      },
+      "at": [
+        7,
+        8
+      ],
+      "category": "ics.custom"
+    }
+  ],
+  "placedStandardComponents": [
+    {
+      "ref": "R1",
+      "instanceId": "2588f65d-4359-450b-97fc-87f513a6d051",
+      "definitionId": "resistor",
+      "from": [
+        5,
+        7
+      ],
+      "to": [
+        8,
+        7
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "R2",
+      "instanceId": "578f700c-8551-4e31-8f97-b9c6d7f12931",
+      "definitionId": "resistor",
+      "from": [
+        8,
+        1
+      ],
+      "to": [
+        8,
+        4
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "VD4",
+      "instanceId": "09a2aac0-1ed9-4e91-955d-1bca6ed69f32",
+      "definitionId": "diode",
+      "from": [
+        8,
+        5
+      ],
+      "to": [
+        12,
+        5
+      ],
+      "value": "1N4148"
+    },
+    {
+      "ref": "VD3",
+      "instanceId": "4ea7eaf2-7e5a-484a-a17f-120628736ff9",
+      "definitionId": "diode",
+      "from": [
+        12,
+        6
+      ],
+      "to": [
+        8,
+        6
+      ],
+      "value": "1N4148"
+    },
+    {
+      "ref": "C3",
+      "instanceId": "9de89ccb-9b62-44b6-af8e-4598f410bde1",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        4,
+        12
+      ],
+      "to": [
+        6,
+        12
+      ],
+      "value": "15p"
+    },
+    {
+      "ref": "R24",
+      "instanceId": "a1b659c9-46d3-4d31-8880-515f36ee66c1",
+      "side": "bottom",
+      "definitionId": "resistor",
+      "from": [
+        6,
+        11
+      ],
+      "to": [
+        9,
+        7
+      ],
+      "value": "10"
+    },
+    {
+      "ref": "R19",
+      "instanceId": "f22a9a11-b171-47cb-be3b-155bc3e156d5",
+      "definitionId": "resistor",
+      "from": [
+        2,
+        13
+      ],
+      "to": [
+        5,
+        14
+      ],
+      "value": "16k"
+    },
+    {
+      "ref": "R21",
+      "instanceId": "b65f04eb-cb1a-4ddd-b217-c5944da9ad75",
+      "definitionId": "resistor",
+      "from": [
+        5,
+        13
+      ],
+      "to": [
+        9,
+        13
+      ],
+      "value": "9.53k"
+    },
+    {
+      "ref": "R20",
+      "instanceId": "2c02fb54-6ee7-498d-8330-6f55afb0ebcd",
+      "definitionId": "resistor",
+      "from": [
+        5,
+        15
+      ],
+      "to": [
+        3,
+        17
+      ],
+      "value": "512"
+    },
+    {
+      "ref": "R23",
+      "instanceId": "9c801460-7c42-4a22-9c08-2a25f67a87c1",
+      "definitionId": "resistor",
+      "from": [
+        12,
+        8
+      ],
+      "to": [
+        11,
+        11
+      ],
+      "value": "1"
+    },
+    {
+      "ref": "C2",
+      "instanceId": "519dc6e8-68c9-4c7a-a448-68075426a155",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        11,
+        15
+      ],
+      "to": [
+        8,
+        15
+      ],
+      "value": "18p"
+    }
+  ],
+  "placedAdvancedComponents": [
+    {
+      "ref": "J1",
+      "instanceId": "d1c77224-b009-4c24-98af-6b2d75267778",
+      "definitionId": "phoenix-mpt-254-4",
+      "at": [
+        4,
+        4
+      ],
+      "rotation": 180,
+      "rows": 1,
+      "cols": 1
+    },
+    {
+      "ref": "J2",
+      "instanceId": "3a09f56c-1ac5-4731-8dfc-7084a26a6b4c",
+      "definitionId": "phoenix-mpt-254-2",
+      "at": [
+        1,
+        15
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1
+    }
+  ],
+  "customIcs": [
+    {
+      "id": 861141098,
+      "name": "AD8055AN (PDIP-8)",
+      "widthPin": 4,
+      "heightPin": 4,
+      "pinDescription": {
+        "1": "NC1",
+        "2": "IN-",
+        "3": "IN+",
+        "4": "V-",
+        "5": "NC5",
+        "6": "OUT",
+        "7": "V+",
+        "8": "NC8"
+      },
+      "category": "ics.custom"
+    }
+  ]
+}

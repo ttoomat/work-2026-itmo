@@ -1449,7 +1449,7 @@
 	)
 	(text "R8/R9: 1% либо измеренный подбор; R29 — настройка 20 мА после прогрева."
 		(exclude_from_sim no)
-		(at 30.48 276.86 0)
+		(at 38.1 210.566 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -1460,7 +1460,7 @@
 	)
 	(text "R1/R2 и R19–R21: подбор соотношений или калибровка."
 		(exclude_from_sim no)
-		(at 30.48 269.24 0)
+		(at 38.1 202.946 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -1470,7 +1470,7 @@
 		(uuid "604cb765-fafe-56f7-bd78-b32f86b710bb")
 	)
 	(sheet
-		(at 57.15 49.53)
+		(at 55.88 16.51)
 		(size 50.165 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1485,8 +1485,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0462a545-c9d4-4c4f-8b86-d95c0ec6a8ca")
-		(property "Sheetname" "Входной каскад"
-			(at 57.15 48.8184 0)
+		(property "Sheetname" "Фильтр и входной каскад"
+			(at 55.88 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(property "Sheetfile" "inp_opamp.kicad_sch"
-			(at 57.15 71.0696 0)
+			(at 55.88 38.0496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1556,7 +1556,7 @@
 		(instances
 			(project "hv_driver_r04"
 				(path "/ff27c528-6b13-5c20-a60b-c94c591564d3"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -1602,6 +1602,98 @@
 			(project "hv_driver_r04"
 				(path "/ff27c528-6b13-5c20-a60b-c94c591564d3"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 51.435)
+		(size 48.26 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86a71692-1386-48dd-8f05-1ebfc9138d39")
+		(property "Sheetname" "Высоковольтный VAS"
+			(at 57.785 50.7234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vas.kicad_sch"
+			(at 57.785 73.6096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hv_driver_r04"
+				(path "/ff27c528-6b13-5c20-a60b-c94c591564d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 16.51)
+		(size 50.165 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8798568c-a9f9-4549-9030-86258576a11b")
+		(property "Sheetname" "Питание ОУ с LDO"
+			(at 135.89 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opamp_supply.kicad_sch"
+			(at 135.89 38.0496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hv_driver_r04"
+				(path "/ff27c528-6b13-5c20-a60b-c94c591564d3"
+					(page "7")
 				)
 			)
 		)
