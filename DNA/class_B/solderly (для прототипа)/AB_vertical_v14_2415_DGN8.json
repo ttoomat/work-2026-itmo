@@ -1,0 +1,1949 @@
+{
+  "version": 17,
+  "board": {
+    "type": "perma-proto",
+    "cols": 62,
+    "rows": 20,
+    "color": "white"
+  },
+  "pads": [
+    {
+      "at": [
+        44,
+        4
+      ],
+      "note": "J1.1 24V RETURN"
+    },
+    {
+      "at": [
+        45,
+        4
+      ],
+      "note": "J1.2 +24V"
+    },
+    {
+      "at": [
+        41,
+        4
+      ],
+      "note": "J3.1 DRIVE"
+    },
+    {
+      "at": [
+        42,
+        4
+      ],
+      "note": "J3.2 OUT"
+    },
+    {
+      "at": [
+        43,
+        4
+      ],
+      "note": "J3.3 PREOUT"
+    },
+    {
+      "at": [
+        10,
+        14
+      ],
+      "note": "J2 VIN FPGA"
+    },
+    {
+      "at": [
+        53,
+        1
+      ],
+      "note": "GND"
+    },
+    {
+      "at": [
+        45,
+        4
+      ],
+      "note": "24+"
+    },
+    {
+      "at": [
+        44,
+        4
+      ],
+      "note": "24-"
+    },
+    {
+      "at": [
+        42,
+        15
+      ],
+      "note": "+15"
+    },
+    {
+      "at": [
+        50,
+        15
+      ],
+      "note": "-15"
+    },
+    {
+      "at": [
+        14,
+        7
+      ],
+      "note": "+12V"
+    },
+    {
+      "at": [
+        17,
+        12
+      ],
+      "note": "-12V"
+    },
+    {
+      "at": [
+        38,
+        13
+      ],
+      "note": "+5V"
+    },
+    {
+      "at": [
+        36,
+        4
+      ],
+      "note": "-5V"
+    }
+  ],
+  "wires": [
+    {
+      "side": "bottom",
+      "from": [
+        19,
+        14
+      ],
+      "to": [
+        17,
+        14
+      ],
+      "color": "#2644a1",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        15,
+        12
+      ],
+      "to": [
+        14,
+        12
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        16,
+        4
+      ],
+      "to": [
+        15,
+        4
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        34,
+        5
+      ],
+      "to": [
+        15,
+        5
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        38,
+        12
+      ],
+      "to": [
+        35,
+        8
+      ],
+      "color": "#ef5252",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        52,
+        14
+      ],
+      "to": [
+        38,
+        14
+      ],
+      "color": "#ef5252",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        36,
+        12
+      ],
+      "to": [
+        42,
+        8
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        18,
+        4
+      ],
+      "to": [
+        11,
+        4
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        38,
+        7
+      ],
+      "to": [
+        34,
+        11
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        40,
+        4
+      ],
+      "to": [
+        38,
+        4
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        37,
+        12
+      ],
+      "to": [
+        41,
+        8
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        5,
+        14
+      ],
+      "to": [
+        14,
+        5
+      ],
+      "color": "#ca2020",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        17,
+        4
+      ],
+      "to": [
+        10,
+        4
+      ],
+      "color": "#15965b",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        52,
+        4
+      ],
+      "to": [
+        52,
+        2
+      ],
+      "color": "#f07800",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        55,
+        4
+      ],
+      "to": [
+        55,
+        2
+      ],
+      "color": "#f07800",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        5,
+        4
+      ],
+      "to": [
+        5,
+        2
+      ],
+      "color": "#f07800",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        8,
+        4
+      ],
+      "to": [
+        8,
+        2
+      ],
+      "color": "#f07800",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        42,
+        11
+      ],
+      "to": [
+        42,
+        2
+      ],
+      "color": "#f07800",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        12,
+        8
+      ],
+      "to": [
+        8,
+        12
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        46,
+        11
+      ],
+      "to": [
+        46,
+        1
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        46,
+        17
+      ],
+      "to": [
+        46,
+        14
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        18,
+        15
+      ],
+      "to": [
+        18,
+        17
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        24,
+        14
+      ],
+      "to": [
+        36,
+        7
+      ],
+      "color": "#347ec7",
+      "width": 1,
+      "via": [
+        [
+          33,
+          12
+        ]
+      ]
+    },
+    {
+      "side": "bottom",
+      "from": [
+        50,
+        13
+      ],
+      "to": [
+        50,
+        18
+      ],
+      "color": "#804bb3",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        24,
+        7
+      ],
+      "to": [
+        24,
+        18
+      ],
+      "color": "#804bb3",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        27,
+        4
+      ],
+      "to": [
+        24,
+        4
+      ],
+      "color": "#804bb3",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        22,
+        6
+      ],
+      "to": [
+        24,
+        6
+      ],
+      "color": "#804bb3",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        22,
+        4
+      ],
+      "to": [
+        19,
+        4
+      ],
+      "color": "#804bb3",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        47,
+        5
+      ],
+      "to": [
+        44,
+        5
+      ],
+      "color": "#694528",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        55,
+        14
+      ],
+      "to": [
+        55,
+        17
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        8,
+        14
+      ],
+      "to": [
+        8,
+        17
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        27,
+        14
+      ],
+      "to": [
+        27,
+        17
+      ],
+      "color": "#171717",
+      "width": 1
+    },
+    {
+      "side": "bottom",
+      "from": [
+        22,
+        14
+      ],
+      "to": [
+        22,
+        17
+      ],
+      "color": "#171717",
+      "width": 1
+    }
+  ],
+  "placedIcs": [
+    {
+      "ref": "DA1",
+      "instanceId": "264e08e6-2ead-48a7-ad31-c9f5f82e9bd2",
+      "name": "AD8055AN (PDIP-8)",
+      "widthPin": 4,
+      "heightPin": 4,
+      "rotation": 90,
+      "pinDescription": {
+        "1": "NC1",
+        "2": "IN-",
+        "3": "IN+",
+        "4": "V-",
+        "5": "NC5",
+        "6": "OUT",
+        "7": "V+",
+        "8": "NC8"
+      },
+      "at": [
+        36,
+        8
+      ],
+      "category": "ics.custom"
+    },
+    {
+      "ref": "DA2",
+      "instanceId": "21ad098a-a63f-48de-a010-04e10a19d28b",
+      "soldered": true,
+      "name": "LM6172IN",
+      "widthPin": 4,
+      "heightPin": 4,
+      "rotation": 270,
+      "pinDescription": {
+        "1": "OUT1",
+        "2": "IN1-",
+        "3": "IN1+",
+        "4": "V-",
+        "5": "IN2+",
+        "6": "IN2-",
+        "7": "OUT2",
+        "8": "V+"
+      },
+      "at": [
+        14,
+        8
+      ],
+      "category": "ics.custom"
+    }
+  ],
+  "placedStandardComponents": [
+    {
+      "ref": "R1",
+      "instanceId": "2588f65d-4359-450b-97fc-87f513a6d051",
+      "definitionId": "resistor",
+      "from": [
+        34,
+        6
+      ],
+      "to": [
+        37,
+        7
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "R2",
+      "instanceId": "578f700c-8551-4e31-8f97-b9c6d7f12931",
+      "definitionId": "resistor",
+      "from": [
+        37,
+        1
+      ],
+      "to": [
+        37,
+        4
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "VD4",
+      "instanceId": "09a2aac0-1ed9-4e91-955d-1bca6ed69f32",
+      "definitionId": "diode",
+      "from": [
+        37,
+        5
+      ],
+      "to": [
+        40,
+        5
+      ],
+      "value": "1N4148"
+    },
+    {
+      "ref": "VD3",
+      "instanceId": "4ea7eaf2-7e5a-484a-a17f-120628736ff9",
+      "definitionId": "diode",
+      "from": [
+        40,
+        6
+      ],
+      "to": [
+        37,
+        6
+      ],
+      "value": "1N4148"
+    },
+    {
+      "ref": "C3",
+      "instanceId": "9de89ccb-9b62-44b6-af8e-4598f410bde1",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        43,
+        8
+      ],
+      "to": [
+        41,
+        12
+      ],
+      "value": "15p",
+      "side": "bottom"
+    },
+    {
+      "ref": "R24",
+      "instanceId": "a1b659c9-46d3-4d31-8880-515f36ee66c1",
+      "side": "bottom",
+      "definitionId": "resistor",
+      "from": [
+        41,
+        11
+      ],
+      "to": [
+        40,
+        7
+      ],
+      "value": "10"
+    },
+    {
+      "ref": "R19",
+      "instanceId": "f22a9a11-b171-47cb-be3b-155bc3e156d5",
+      "definitionId": "resistor",
+      "from": [
+        36,
+        14
+      ],
+      "to": [
+        34,
+        14
+      ],
+      "value": "16k"
+    },
+    {
+      "ref": "R21",
+      "instanceId": "b65f04eb-cb1a-4ddd-b217-c5944da9ad75",
+      "definitionId": "resistor",
+      "from": [
+        34,
+        13
+      ],
+      "to": [
+        38,
+        13
+      ],
+      "value": "9.53k"
+    },
+    {
+      "ref": "R20",
+      "instanceId": "2c02fb54-6ee7-498d-8330-6f55afb0ebcd",
+      "definitionId": "resistor",
+      "from": [
+        34,
+        15
+      ],
+      "to": [
+        34,
+        17
+      ],
+      "value": "512"
+    },
+    {
+      "ref": "R23",
+      "instanceId": "9c801460-7c42-4a22-9c08-2a25f67a87c1",
+      "definitionId": "resistor",
+      "from": [
+        40,
+        8
+      ],
+      "to": [
+        40,
+        11
+      ],
+      "value": "1"
+    },
+    {
+      "ref": "C2",
+      "instanceId": "519dc6e8-68c9-4c7a-a448-68075426a155",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        40,
+        15
+      ],
+      "to": [
+        37,
+        15
+      ],
+      "value": "18p"
+    },
+    {
+      "ref": "C101",
+      "instanceId": "c47fd992-02a6-42be-91f6-03af4cca6070",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        13,
+        13
+      ],
+      "to": [
+        15,
+        13
+      ],
+      "value": "300p"
+    },
+    {
+      "ref": "C102",
+      "instanceId": "4c327920-f10e-4782-b13f-9a500d7b9cbb",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        13,
+        14
+      ],
+      "to": [
+        15,
+        14
+      ],
+      "value": "10p"
+    },
+    {
+      "ref": "C103",
+      "instanceId": "3d204b46-73a2-41f0-8612-51b8ae305a12",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        16,
+        13
+      ],
+      "to": [
+        18,
+        13
+      ],
+      "value": "220p"
+    },
+    {
+      "ref": "C104",
+      "instanceId": "2d09db92-48fa-47d3-8af7-0f1b0cd139a5",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        16,
+        14
+      ],
+      "to": [
+        18,
+        14
+      ],
+      "value": "47p"
+    },
+    {
+      "ref": "C105",
+      "instanceId": "a7653de6-0a06-4fde-9e16-c8dfd0cd65d6",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        16,
+        15
+      ],
+      "to": [
+        18,
+        15
+      ],
+      "value": "15p"
+    },
+    {
+      "ref": "C109",
+      "instanceId": "163a8a44-075b-41ec-9f4d-03f930fc3742",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        10,
+        6
+      ],
+      "to": [
+        12,
+        6
+      ],
+      "value": "15p"
+    },
+    {
+      "ref": "C111",
+      "instanceId": "014a7894-158a-47c7-9478-bcbc08377dbf",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        17,
+        12
+      ],
+      "to": [
+        18,
+        12
+      ],
+      "value": "100n"
+    },
+    {
+      "ref": "C110",
+      "instanceId": "447164fd-d346-4f6a-8753-5acab6957ea1",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        14,
+        7
+      ],
+      "to": [
+        12,
+        7
+      ],
+      "value": "100nF"
+    },
+    {
+      "ref": "R101",
+      "instanceId": "ee580074-a736-4897-9a45-564a258ccb5a",
+      "soldered": true,
+      "definitionId": "resistor",
+      "from": [
+        10,
+        12
+      ],
+      "to": [
+        13,
+        12
+      ],
+      "value": "750Ω"
+    },
+    {
+      "ref": "R102",
+      "instanceId": "7d4736af-e656-4334-9c00-e7c1d043519d",
+      "soldered": true,
+      "definitionId": "resistor",
+      "from": [
+        16,
+        12
+      ],
+      "to": [
+        13,
+        11
+      ],
+      "value": "750Ω"
+    },
+    {
+      "ref": "C108",
+      "instanceId": "770727a6-0852-4bed-b6e9-b9edf6d5294c",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        12,
+        5
+      ],
+      "to": [
+        10,
+        5
+      ],
+      "value": "150pF"
+    },
+    {
+      "ref": "C107",
+      "instanceId": "8bf56dc0-0a48-43d1-88ce-56bcdfce5a0c",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        16,
+        6
+      ],
+      "to": [
+        18,
+        6
+      ],
+      "value": "101pF"
+    },
+    {
+      "ref": "C106",
+      "instanceId": "15d46b69-edb0-4fa5-bc45-02c5e34612be",
+      "soldered": true,
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        16,
+        5
+      ],
+      "to": [
+        18,
+        5
+      ],
+      "value": "330pF"
+    },
+    {
+      "ref": "R103",
+      "instanceId": "2b30e28e-1c9d-4598-b63e-fec1526e8877",
+      "side": "bottom",
+      "soldered": true,
+      "definitionId": "resistor",
+      "from": [
+        11,
+        8
+      ],
+      "to": [
+        14,
+        11
+      ],
+      "value": "750Ω"
+    },
+    {
+      "ref": "R104",
+      "instanceId": "1f8b1886-b456-4973-b935-3d81a307973a",
+      "side": "bottom",
+      "soldered": true,
+      "definitionId": "resistor",
+      "from": [
+        11,
+        7
+      ],
+      "to": [
+        17,
+        7
+      ],
+      "value": "750Ω"
+    },
+    {
+      "ref": "C14",
+      "instanceId": "787ba888-74af-422a-8792-9327e608a49c",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        35,
+        4
+      ],
+      "to": [
+        35,
+        1
+      ],
+      "value": "100n"
+    },
+    {
+      "ref": "C15",
+      "instanceId": "0181d488-b87a-40b9-94fd-bfb5418f8d6b",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        36,
+        4
+      ],
+      "to": [
+        36,
+        1
+      ],
+      "value": "100n"
+    },
+    {
+      "ref": "C21",
+      "instanceId": "42f4c076-8c41-402f-a7ee-5b49d32ac6c2",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        52,
+        5
+      ],
+      "to": [
+        51,
+        1
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "C22",
+      "instanceId": "8a608989-7ac3-4b4e-809d-69e618cc7aee",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        54,
+        5
+      ],
+      "to": [
+        54,
+        1
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C23",
+      "instanceId": "b2bf2cb5-a97d-44f8-9023-a25ac83df928",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        52,
+        12
+      ],
+      "to": [
+        53,
+        12
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C24",
+      "instanceId": "c60b2906-6798-4907-9b46-e46249e80e9b",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        52,
+        15
+      ],
+      "to": [
+        52,
+        17
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "R34",
+      "instanceId": "2d73a8b2-a17c-4425-8df2-77054af974f5",
+      "definitionId": "resistor",
+      "from": [
+        52,
+        13
+      ],
+      "to": [
+        56,
+        13
+      ],
+      "value": "30k"
+    },
+    {
+      "ref": "R35",
+      "instanceId": "805cb670-0027-4678-aa6f-bd68c0678787",
+      "definitionId": "resistor",
+      "from": [
+        56,
+        14
+      ],
+      "to": [
+        53,
+        14
+      ],
+      "value": "2.4k"
+    },
+    {
+      "ref": "R36",
+      "instanceId": "80657b3e-cbf0-449b-a249-65e746abc3e2",
+      "definitionId": "resistor",
+      "from": [
+        53,
+        15
+      ],
+      "to": [
+        55,
+        15
+      ],
+      "value": "10k"
+    },
+    {
+      "ref": "C25",
+      "instanceId": "efb82c1f-1e7e-4102-b5a6-1e013ea87f58",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        5,
+        5
+      ],
+      "to": [
+        5,
+        1
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "C26",
+      "instanceId": "8c4f1a59-f052-4364-8846-412d9cfb2bd0",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        7,
+        5
+      ],
+      "to": [
+        7,
+        1
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C27",
+      "instanceId": "c2f554c7-56bc-49c8-91d2-97e5af24267f",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        5,
+        12
+      ],
+      "to": [
+        6,
+        12
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C28",
+      "instanceId": "13cd5324-b03b-4cc5-8563-72365269f20a",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        5,
+        15
+      ],
+      "to": [
+        5,
+        17
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "R37",
+      "instanceId": "f044641b-22a0-4028-b24d-c272e403a354",
+      "definitionId": "resistor",
+      "from": [
+        5,
+        13
+      ],
+      "to": [
+        9,
+        13
+      ],
+      "value": "91k"
+    },
+    {
+      "ref": "R38",
+      "instanceId": "01fb60e3-d69d-4808-b498-e8d5422efaea",
+      "definitionId": "resistor",
+      "from": [
+        9,
+        14
+      ],
+      "to": [
+        6,
+        14
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "R39",
+      "instanceId": "dc6c13ad-6795-40d5-8dbd-14e82a6ef7eb",
+      "definitionId": "resistor",
+      "from": [
+        6,
+        15
+      ],
+      "to": [
+        8,
+        15
+      ],
+      "value": "10k"
+    },
+    {
+      "ref": "C29",
+      "instanceId": "c2d52531-5aa5-4a68-9caf-3f57c5c14a7c",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        24,
+        5
+      ],
+      "to": [
+        24,
+        1
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "C30",
+      "instanceId": "47df9b25-beea-48c5-a0cb-c126fd9e61f9",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        26,
+        5
+      ],
+      "to": [
+        26,
+        1
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C31",
+      "instanceId": "ffef9a0c-35af-4677-bf72-e82a7d27663e",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        24,
+        12
+      ],
+      "to": [
+        25,
+        12
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C32",
+      "instanceId": "c0fd22eb-871f-4c00-b2c6-a96298c45777",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        24,
+        15
+      ],
+      "to": [
+        24,
+        17
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "R40",
+      "instanceId": "984d6468-1cab-4e2d-866a-2bddaa13ef8c",
+      "definitionId": "resistor",
+      "from": [
+        24,
+        13
+      ],
+      "to": [
+        28,
+        13
+      ],
+      "value": "30k"
+    },
+    {
+      "ref": "R41",
+      "instanceId": "464c974d-8ab7-4bd1-a23f-b137ba088f72",
+      "definitionId": "resistor",
+      "from": [
+        28,
+        14
+      ],
+      "to": [
+        25,
+        14
+      ],
+      "value": "2.4k"
+    },
+    {
+      "ref": "R42",
+      "instanceId": "a7aef7db-55e9-417e-b7f5-da0859c66e49",
+      "definitionId": "resistor",
+      "from": [
+        25,
+        15
+      ],
+      "to": [
+        27,
+        15
+      ],
+      "value": "10k"
+    },
+    {
+      "ref": "C33",
+      "instanceId": "85691e0c-dca1-4d8e-8f60-08b2ce7d5ccd",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        19,
+        5
+      ],
+      "to": [
+        19,
+        1
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "C34",
+      "instanceId": "2eea7e35-0e5d-45d1-8766-da2898a2a323",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        21,
+        5
+      ],
+      "to": [
+        21,
+        1
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C35",
+      "instanceId": "b56e727f-b63a-49b4-a704-511131ab301d",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        19,
+        12
+      ],
+      "to": [
+        20,
+        12
+      ],
+      "value": "10n"
+    },
+    {
+      "ref": "C36",
+      "instanceId": "c4bd9e99-1066-4085-bdc3-0aa02028d2cb",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        19,
+        15
+      ],
+      "to": [
+        19,
+        17
+      ],
+      "value": "10u/25V"
+    },
+    {
+      "ref": "R43",
+      "instanceId": "a3cb2280-a0bc-4331-99da-8ec534e2bd2b",
+      "definitionId": "resistor",
+      "from": [
+        19,
+        13
+      ],
+      "to": [
+        23,
+        13
+      ],
+      "value": "91k"
+    },
+    {
+      "ref": "R44",
+      "instanceId": "93b075b9-ee53-45c1-953d-d96b4b4fb914",
+      "definitionId": "resistor",
+      "from": [
+        23,
+        14
+      ],
+      "to": [
+        20,
+        14
+      ],
+      "value": "1k"
+    },
+    {
+      "ref": "R45",
+      "instanceId": "65d00921-d9d7-472a-b499-d00932835bce",
+      "definitionId": "resistor",
+      "from": [
+        20,
+        15
+      ],
+      "to": [
+        22,
+        15
+      ],
+      "value": "10k"
+    },
+    {
+      "ref": "C16",
+      "instanceId": "ac5874bc-91e7-46db-b1e2-ef9d466958ce",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        45,
+        6
+      ],
+      "to": [
+        44,
+        6
+      ],
+      "value": "47u/63V",
+      "side": "bottom"
+    },
+    {
+      "ref": "C17",
+      "instanceId": "526c862f-01eb-4f1b-b288-7d86e1f77ac0",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        42,
+        14
+      ],
+      "to": [
+        42,
+        17
+      ],
+      "value": "10u/25V",
+      "side": "bottom"
+    },
+    {
+      "ref": "C18",
+      "instanceId": "42056e91-8895-4f45-b13d-d25ec13d7cf4",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        50,
+        14
+      ],
+      "to": [
+        50,
+        17
+      ],
+      "value": "10u/25V",
+      "side": "bottom"
+    },
+    {
+      "ref": "C112",
+      "instanceId": "9a2c13be-9368-4c9f-b309-18e91c819c7f",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        14,
+        6
+      ],
+      "to": [
+        12,
+        4
+      ],
+      "value": "10u/25V",
+      "side": "bottom"
+    },
+    {
+      "ref": "C113",
+      "instanceId": "593810d8-a449-42af-a21b-2b4dc7b230ba",
+      "definitionId": "ceramic-capacitor",
+      "from": [
+        18,
+        11
+      ],
+      "to": [
+        17,
+        13
+      ],
+      "value": "10u/25V",
+      "side": "bottom"
+    }
+  ],
+  "placedAdvancedComponents": [
+    {
+      "ref": "J1",
+      "instanceId": "3a09f56c-1ac5-4731-8dfc-7084a26a6b4c",
+      "definitionId": "phoenix-mpt-254-2",
+      "at": [
+        44,
+        4
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1
+    },
+    {
+      "ref": "J2",
+      "instanceId": "87685abe-27cf-43f1-bc0b-e7dbc481360d",
+      "definitionId": "header-pins",
+      "at": [
+        10,
+        14
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1
+    },
+    {
+      "ref": "TP1",
+      "instanceId": "0593544e-fb65-4b9d-bfff-1019b93aad97",
+      "definitionId": "header-pins",
+      "at": [
+        16,
+        7
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1
+    },
+    {
+      "ref": "J3",
+      "instanceId": "5189e51f-d908-4387-b338-d8f672605c24",
+      "definitionId": "header-pins",
+      "at": [
+        41,
+        4
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 3
+    },
+    {
+      "ref": "PS1",
+      "instanceId": "6884451a-13d2-4a27-b911-0b9cfa7db9ae",
+      "definitionId": "custom",
+      "at": [
+        47,
+        7
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1,
+      "custom": {
+        "id": "layout-ps1",
+        "name": "Hi-Link URA2415YMD-10WR3",
+        "refPrefix": "PS",
+        "cols": 11,
+        "rows": 11,
+        "pins": [
+          {
+            "at": [
+              6,
+              1
+            ],
+            "label": "1 -VIN"
+          },
+          {
+            "at": [
+              4,
+              1
+            ],
+            "label": "2 +VIN"
+          },
+          {
+            "at": [
+              1,
+              9
+            ],
+            "label": "3 +VO"
+          },
+          {
+            "at": [
+              5,
+              9
+            ],
+            "label": "4 COM"
+          },
+          {
+            "at": [
+              9,
+              9
+            ],
+            "label": "5 -VO"
+          },
+          {
+            "at": [
+              9,
+              1
+            ],
+            "label": "6 CTRL (open)"
+          }
+        ],
+        "color": "#233a48",
+        "footprintNote": "Top view, rotated 90 degrees. 25.4 x 25.4 mm."
+      }
+    },
+    {
+      "ref": "DA3",
+      "instanceId": "d2968115-ffab-44bd-9ef0-3f2874efd28f",
+      "definitionId": "custom",
+      "at": [
+        52,
+        11
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1,
+      "custom": {
+        "id": "layout-da3",
+        "name": "TPS7A4901 / DGN8 PowerPAD",
+        "refPrefix": "DA",
+        "cols": 4,
+        "rows": 4,
+        "pins": [
+          {
+            "at": [
+              0,
+              3
+            ],
+            "label": "1 +5V"
+          },
+          {
+            "at": [
+              1,
+              3
+            ],
+            "label": "2 DA3 FB"
+          },
+          {
+            "at": [
+              2,
+              3
+            ],
+            "label": "3 DA3 NC3"
+          },
+          {
+            "at": [
+              3,
+              3
+            ],
+            "label": "4 GND"
+          },
+          {
+            "at": [
+              3,
+              0
+            ],
+            "label": "5 +15"
+          },
+          {
+            "at": [
+              2,
+              0
+            ],
+            "label": "6 DA3 NR"
+          },
+          {
+            "at": [
+              1,
+              0
+            ],
+            "label": "7 DA3 DNC7"
+          },
+          {
+            "at": [
+              0,
+              0
+            ],
+            "label": "8 +15"
+          }
+        ],
+        "color": "#233a48",
+        "footprintNote": "DGN8 to DIP8, 7.62 mm rows. Carrier must bond exposed PowerPAD to pin 4 (GND)."
+      }
+    },
+    {
+      "ref": "DA4",
+      "instanceId": "2f8b71da-2ae9-4cc7-95a5-898e6c4a3132",
+      "definitionId": "custom",
+      "at": [
+        5,
+        11
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1,
+      "custom": {
+        "id": "layout-da4",
+        "name": "TPS7A4901 / DGN8 PowerPAD",
+        "refPrefix": "DA",
+        "cols": 4,
+        "rows": 4,
+        "pins": [
+          {
+            "at": [
+              0,
+              3
+            ],
+            "label": "1 +12V"
+          },
+          {
+            "at": [
+              1,
+              3
+            ],
+            "label": "2 DA4 FB"
+          },
+          {
+            "at": [
+              2,
+              3
+            ],
+            "label": "3 DA4 NC3"
+          },
+          {
+            "at": [
+              3,
+              3
+            ],
+            "label": "4 GND"
+          },
+          {
+            "at": [
+              3,
+              0
+            ],
+            "label": "5 +15"
+          },
+          {
+            "at": [
+              2,
+              0
+            ],
+            "label": "6 DA4 NR"
+          },
+          {
+            "at": [
+              1,
+              0
+            ],
+            "label": "7 DA4 DNC7"
+          },
+          {
+            "at": [
+              0,
+              0
+            ],
+            "label": "8 +15"
+          }
+        ],
+        "color": "#233a48",
+        "footprintNote": "DGN8 to DIP8, 7.62 mm rows. Carrier must bond exposed PowerPAD to pin 4 (GND)."
+      }
+    },
+    {
+      "ref": "DA5",
+      "instanceId": "a2aa88f6-889e-4e5e-be2f-040cd503ad78",
+      "definitionId": "custom",
+      "at": [
+        24,
+        11
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1,
+      "custom": {
+        "id": "layout-da5",
+        "name": "TPS7A3001 / DGN8 PowerPAD",
+        "refPrefix": "DA",
+        "cols": 4,
+        "rows": 4,
+        "pins": [
+          {
+            "at": [
+              0,
+              3
+            ],
+            "label": "1 -5V"
+          },
+          {
+            "at": [
+              1,
+              3
+            ],
+            "label": "2 DA5 FB"
+          },
+          {
+            "at": [
+              2,
+              3
+            ],
+            "label": "3 DA5 NC3"
+          },
+          {
+            "at": [
+              3,
+              3
+            ],
+            "label": "4 GND"
+          },
+          {
+            "at": [
+              3,
+              0
+            ],
+            "label": "5 -15"
+          },
+          {
+            "at": [
+              2,
+              0
+            ],
+            "label": "6 DA5 NR"
+          },
+          {
+            "at": [
+              1,
+              0
+            ],
+            "label": "7 DA5 DNC7"
+          },
+          {
+            "at": [
+              0,
+              0
+            ],
+            "label": "8 -15"
+          }
+        ],
+        "color": "#233a48",
+        "footprintNote": "DGN8 to DIP8, 7.62 mm rows. Carrier must bond exposed PowerPAD to pin 4 (GND)."
+      }
+    },
+    {
+      "ref": "DA6",
+      "instanceId": "3371d4d7-f797-4dd1-aabc-a7b7e3f8c9b4",
+      "definitionId": "custom",
+      "at": [
+        19,
+        11
+      ],
+      "rotation": 0,
+      "rows": 1,
+      "cols": 1,
+      "custom": {
+        "id": "layout-da6",
+        "name": "TPS7A3001 / DGN8 PowerPAD",
+        "refPrefix": "DA",
+        "cols": 4,
+        "rows": 4,
+        "pins": [
+          {
+            "at": [
+              0,
+              3
+            ],
+            "label": "1 -12V"
+          },
+          {
+            "at": [
+              1,
+              3
+            ],
+            "label": "2 DA6 FB"
+          },
+          {
+            "at": [
+              2,
+              3
+            ],
+            "label": "3 DA6 NC3"
+          },
+          {
+            "at": [
+              3,
+              3
+            ],
+            "label": "4 GND"
+          },
+          {
+            "at": [
+              3,
+              0
+            ],
+            "label": "5 -15"
+          },
+          {
+            "at": [
+              2,
+              0
+            ],
+            "label": "6 DA6 NR"
+          },
+          {
+            "at": [
+              1,
+              0
+            ],
+            "label": "7 DA6 DNC7"
+          },
+          {
+            "at": [
+              0,
+              0
+            ],
+            "label": "8 -15"
+          }
+        ],
+        "color": "#233a48",
+        "footprintNote": "DGN8 to DIP8, 7.62 mm rows. Carrier must bond exposed PowerPAD to pin 4 (GND)."
+      }
+    }
+  ],
+  "customIcs": [
+    {
+      "id": 861141098,
+      "name": "AD8055AN (PDIP-8)",
+      "widthPin": 4,
+      "heightPin": 4,
+      "pinDescription": {
+        "1": "NC1",
+        "2": "IN-",
+        "3": "IN+",
+        "4": "V-",
+        "5": "NC5",
+        "6": "OUT",
+        "7": "V+",
+        "8": "NC8"
+      },
+      "category": "ics.custom"
+    },
+    {
+      "id": 136968155,
+      "name": "LM6172IN",
+      "widthPin": 4,
+      "heightPin": 4,
+      "pinDescription": {
+        "1": "OUT1",
+        "2": "IN1-",
+        "3": "IN1+",
+        "4": "V-",
+        "5": "IN2+",
+        "6": "IN2-",
+        "7": "OUT2",
+        "8": "V+"
+      },
+      "category": "ics.custom"
+    }
+  ]
+}
